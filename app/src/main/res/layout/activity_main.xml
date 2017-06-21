@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom ="false"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:background="#607D8B"
+                android:hapticFeedbackEnabled="false"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Busses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="0">
+
+
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#607D8B" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/Courses"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#607D8B">
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:id="@+id/linearLayout1"
+                        android:layout_height="wrap_content">
+
+
+                        <EditText android:layout_weight="1"
+                            android:id="@+id/edittext"
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:hint="Entere your course ID example:Cis207"/>
+
+
+                        <Button android:id="@+id/button"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Search"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/CoursesTextView"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@+id/button1"
+                        android:textColor="#212121"
+                        />
+
+                    <RelativeLayout android:layout_width="match_parent"
+                        android:id="@+id/relativeLayout1"
+                        android:layout_height="wrap_content">
+
+
+                        <ListView
+                            android:id="@+id/listView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="50dp"
+                            android:background="#607D8B" />
+
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:textSize="15sp"
+                            android:text="Delete" />
+
+                        <Button android:id="@+id/button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:textSize="15sp"/>
+                        />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/About"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#607D8B">
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

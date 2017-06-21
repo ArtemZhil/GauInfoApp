@@ -1,0 +1,2225 @@
+<resources>
+    <string name="app_name">Gau Info</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="example_edittext"> </string>
+    <string name="show_the_text"> </string>
+    <string name="enter_text"> </string>
+
+
+            <string-array name="CoursesTable">
+                <item>	PA102	,	Thursday	,	9:00	,	EP	,	EL1	</item>
+                <item>	PA301	,	Thursday	,	9:00	,	LP	,	EL2	</item>
+                <item>	ART301	,	Thursday	,	9:00	,	LP	,	EL2	</item>
+                <item>	ART401	,	Thursday	,	9:00	,	LP	,	EL2	</item>
+                <item>	PA302	,	Thursday	,	9:00	,	LP	,	EL2	</item>
+                <item>	GRA302	,	Thursday	,	9:00	,	LP	,	EL2	</item>
+                <item>	PA103	,	Wednesday	,	10:00	,	KU	,	EL1	</item>
+                <item>	GRA267	,	Monday	,	14:00	,	KU	,	EL1	</item>
+                <item>	Pa111	,	Tuesday	,	10:00	,	KU	,	EL1	</item>
+                <item>	PA131	,	Monday	,	9:00	,	EP	,	ADA101	</item>
+                <item>	PA211	,	Wednesday	,	14:00	,	KU	,	EL1	</item>
+                <item>	PA231	,	Tuesday	,	14:00	,	KU	,	EL1	</item>
+                <item>	PA311	,	Tuesday	,	9:00	,	LP	,	EL2	</item>
+                <item>	PA411	,	Tuesday	,	14:00	,	DR	,	ADA104	</item>
+                <item>	MFA515	,	Wednesday	,	17:00	,	MA	,	ADA218	</item>
+                <item>	ARC604	,	Wednesday	,	17:00	,	MA	,	TP	</item>
+                <item>	MFA501	,	Thursday	,	14:00	,	MA	,	ADA103	</item>
+                <item>	MFA502	,	Thursday	,	14:00	,	MA	,	ADA103	</item>
+                <item>	GRA121	,	Tuesday	,	14:00	,	LP	,	EL2	</item>
+                <item>	GRA202	,	Wednesday	,	9:00	,	DR	,	ADA104	</item>
+                <item>	GRA301	,	Wednesday	,	9:00	,	DR	,	ADA104	</item>
+                <item>	GRA330	,	Wednesday	,	9:00	,	DR	,	ADA104	</item>
+                <item>	GRA333	,	Friday	,	9:00	,	MV	,	ADA104	</item>
+                <item>	GRA401	,	Friday	,	11:00	,	MV	,	ADA104	</item>
+                <item>	GRA401	,	Monday	,	9:00	,	DR	,	EL2	</item>
+                <item>	GRA402	,	Monday	,	9:00	,	DR	,	EL2	</item>
+                <item>	GRA221	,	Thursday	,	9:00	,	DR	,	ADA104	</item>
+                <item>	GRA223	,	Thursday	,	13:00	,	DR	,	ADA104	</item>
+                <item>	GRA412	,	Thursday	,	9:00	,	KU	,	ADA106	</item>
+                <item>	ARC141.1	,	Monday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	ARC141.2	,	Tuesday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	ARC141.3	,	Wednesday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	ARC141.1	,	Monday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	ARC141.2	,	Tuesday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	ARC141.3	,	Wednesday	,	14:00	,	EP	,	AMPHI	</item>
+                <item>	INT102	,	Monday	,	9:00	,	CC	,	ADA219	</item>
+                <item>	INT201	,	Thursday	,	9:00	,	CC	,	ADA219	</item>
+                <item>	INT202	,	Thursday	,	9:00	,	CC	,	ADA219	</item>
+                <item>	INT301	,	Thursday	,	9:00	,	KB	,	ADA218	</item>
+                <item>	INT302	,	Thursday	,	9:00	,	KB	,	ADA218	</item>
+                <item>	INT221	,	Friday	,	14:00	,	CC	,	ADA219	</item>
+                <item>	INT241	,	Wednesday	,	9:00	,	KB	,	ADA219	</item>
+                <item>	INT401	,	Tuesday	,	9:00	,	KB	,	ADA219	</item>
+                <item>	IDES461	,	Tuesday	,	9:00	,	KB	,	ADA219	</item>
+                <item>	INT402	,	Tuesday	,	9:00	,	KB	,	ADA219	</item>
+                <item>	IDES462	,	Tuesday	,	9:00	,	KB	,	ADA219	</item>
+                <item>	INT361	,	Wednesday	,	9:00	,	AM	,	ADA303	</item>
+                <item>	MIM101.1	,	Sali	,	9:00	,	SE	,	BL	</item>
+                <item>	MIM101.2	,	Persembe	,	9:00	,	SE	,	BL	</item>
+                <item>	MIM101.3	,	Carsamba	,	9:00	,	KG	,	BL	</item>
+                <item>	MIM102	,	Sali	,	9:00	,	KG	,	ADA103	</item>
+                <item>	MIM201.1	,	Sali	,	9:00	,	KG	,	ADA103	</item>
+                <item>	MIM201.2	,	Sali	,	9:00	,	CY	,	ADA102	</item>
+                <item>	MIM202	,	Sali	,	9:00	,	CY	,	ADA102	</item>
+                <item>	MIM111.1	,	Cuma	,	12:00	,	BK	,	103	</item>
+                <item>	MIM111.2	,	Cuma	,	15:00	,	BK	,	103	</item>
+                <item>	MIM111.3	,	Cuma	,	9:00	,	BK	,	ADA103	</item>
+                <item>	MIM121.1	,	Cuma	,	9:00	,	MA	,	BL	</item>
+                <item>	MIM121.2	,	Cuma	,	12:00	,	MA	,	BL	</item>
+                <item>	MIM131	,	Pazartesi	,	15:00	,	STAFF	,	ADA101	</item>
+                <item>	MIM141.1	,	Pazartesi	,	9:00	,	STAFF	,	Amphitheatre	</item>
+                <item>	MIM141.2	,	Sali	,	9:00	,	STAFF	,	ADA101	</item>
+                <item>	MIM211.1	,	Sali	,	16:00	,	BJ	,	ADA104	</item>
+                <item>	MIM211.2	,	Persembe	,	16:00	,	BK	,	ADA104	</item>
+                <item>	MIM221.1	,	Pazartesi	,	15:00	,	BY	,	BL	</item>
+                <item>	MIM221.2	,	Persembe	,	16:00	,	BY	,	BL	</item>
+                <item>	MIM241	,	Pazartesi	,	12:00	,	STAFF	,	ADA101	</item>
+                <item>	MIM301	,	Carsamba	,	9:00	,	CY	,	ADA103	</item>
+                <item>	MIM351	,	Cuma	,	12:00	,	CY	,	ADA103	</item>
+                <item>	MIM361	,	Persembe	,	9:00	,	CY	,	ADA101	</item>
+                <item>	MIM381	,	Persembe	,	12:00	,	KG	,	ADA101	</item>
+                <item>	ART106.1	,	Carsamba	,	9:00	,	SE	,	EL2	</item>
+                <item>	ART106.2	,	Carsamba	,	12:00	,	SE	,	EL2	</item>
+                <item>	MIM319	,	Persembe	,	15:00	,	KG	,	ADA101	</item>
+                <item>	ARC101.1	,	Monday	,	9:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.2	,	Tuesday	,	9:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.3	,	Wednesday	,	9:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.4	,	Monday	,	9:00	,	SA	,	ADA301	</item>
+                <item>	ARC101.5	,	Tuesday	,	9:00	,	SA	,	ADA301	</item>
+                <item>	ARC101.6	,	Wednesday	,	9:00	,	SA	,	ADA301	</item>
+                <item>	ARC101.1	,	Friday	,	11:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.2	,	Friday	,	11:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.3	,	Friday	,	11:00	,	AB	,	ADA301	</item>
+                <item>	ARC101.4	,	Friday	,	11:00	,	SA	,	ADA301	</item>
+                <item>	ARC101.5	,	Friday	,	11:00	,	SA	,	ADA301	</item>
+                <item>	ARC101.6	,	Friday	,	11:00	,	SA	,	ADA301	</item>
+                <item>	ARC102.1	,	Tuesday	,	9:00	,		,	ADA302	</item>
+                <item>	ARC102.2	,	Wednesday	,	9:00	,		,	ADA302	</item>
+                <item>	ARC102.1	,	Friday	,	11:00	,		,	ADA302	</item>
+                <item>	ARC102.2	,	Friday	,	11:00	,		,	ADA302	</item>
+                <item>	ARC111.1	,	Thursday	,	9:00	,	STAFF	,	ADA301	</item>
+                <item>	ARC111.2	,	Thursday	,	13:00	,	STAFF	,	ADA301	</item>
+                <item>	ARC111.3	,	Thursday	,	16:00	,	STAFF	,	ADA301	</item>
+                <item>	ARC111.4	,	Friday	,	14:00	,	STAFF	,	ADA301	</item>
+                <item>	ARC121.1	,	Thursday	,	9:00	,	IO	,	ADA302	</item>
+                <item>	ARC121.2	,	Thursday	,	13:00	,	IO	,	ADA302	</item>
+                <item>	ARC121.3	,	Thursday	,	16:00	,	IO	,	ADA302	</item>
+                <item>	ARC121.4	,	Friday	,	14:00	,	IO	,	ADA302	</item>
+                <item>	ARC131.1	,	Saturday	,	9:00	,	IO	,	ADA301	</item>
+                <item>	ARC131.2	,	Saturday	,	13:00	,	IO	,	ADA301	</item>
+                <item>	ARC201.1	,	Tuesday	,	9:00	,	VD	,	ADA304	</item>
+                <item>	ARC201.2	,	Wednesday	,	9:00	,	VD	,	ADA304	</item>
+                <item>	ARC201.3	,	Tuesday	,	9:00	,	DR.H	,	ADA304	</item>
+                <item>	ARC201.4	,	Tuesday	,	9:00	,	ED	,	ADA304	</item>
+                <item>	ARC202.1	,	Wednesday	,	9:00	,	DR.B	,	ADA305	</item>
+                <item>	ARC202.2	,	Thursday	,	9:00	,	DR.B	,	ADA305	</item>
+                <item>	ARC202.3	,	Thursday	,	9:00	,		,	ADA305	</item>
+                <item>	ARC211.1	,	Monday	,	9:00	,	EK	,	ADA104	</item>
+                <item>	ARC211.2	,	Monday	,	12:00	,	EK	,	ADA104	</item>
+                <item>	ARC211.3	,	Monday	,	15:00	,	EK	,	ADA104	</item>
+                <item>	ARC241.1	,	Monday	,	9:00	,	Dr.H	,	ADA305	</item>
+                <item>	ARC241.2	,	Monday	,	12:00	,	Dr.H	,	ADA305	</item>
+                <item>	ARC241.3	,	Monday	,	15:00	,	DR.H	,	ADA305	</item>
+                <item>	ARC221.1	,	Friday	,	14:00	,	ED	,	ADA304	</item>
+                <item>	ARC221.2	,	Thursday	,	14:00	,	ED	,	ADA304	</item>
+                <item>	ARC221.3	,	Thursday	,	9:00	,	ED	,	ADA304	</item>
+                <item>	ARCH465	,	Thursday	,	14:00	,	ED	,	Amphy Theatre	</item>
+                <item>	ARC301.1	,	Monday	,	9:00	,	SC	,	ADA303	</item>
+                <item>	ARC301.2	,	Tuesday	,	9:00	,	SZ	,	ADA303	</item>
+                <item>	ARC301.3	,	Monday	,	9:00	,	D	,	ADA303	</item>
+                <item>	ARC301.4	,	Tuesday	,	9:00	,	D	,	ADA303	</item>
+                <item>	ARC302.1	,	Thursday	,	9:00	,	AM	,	ADA303	</item>
+                <item>	ARC302.2	,	Friday	,	9:00	,	AM	,	ADA303	</item>
+                <item>	ARC351.1	,	Wednesday	,	9:00	,	SC	,	ADA218	</item>
+                <item>	ARC351.2	,	Wednesday	,	14:00	,	SC	,	ADA218	</item>
+                <item>	ARC352	,	Thursday	,	14:00	,	SC	,	Amphy Theatre	</item>
+                <item>	ARC361.1	,	Wednesday	,	9:00	,	AM	,	ADA303	</item>
+                <item>	ARC361.2	,	Wednesday	,	14:00	,	AM	,	ADA303	</item>
+                <item>	ARC381	,	Wednesday	,	12:00	,	HS	,	Amphy Theatre	</item>
+                <item>	ARCH415	,	Thursday	,	9:00	,	D	,	Amphy Theatre	</item>
+                <item>	ARC373	,	Wednesday	,	9:00	,	D	,	Amphy Theatre	</item>
+                <item>	PA103	,	Wednesday	,	10:00	,	KU	,	EL1	</item>
+                <item>	GRA267	,	Monday	,	14:00	,	KU	,	EL1	</item>
+                <item>	PA131	,	Monday	,	9:00	,	PB	,	ADA101	</item>
+                <item>	PA211	,	Wednesday	,	14:00	,	KU	,	EL1	</item>
+                <item>	PA231	,	Tuesday	,	14:00	,	KU	,	EL1	</item>
+                <item>	PA311	,	Tuesday	,	9:00	,	LP	,	EL2	</item>
+                <item>	GRA121	,	Monday	,	9:00	,	LP	,	EL1	</item>
+                <item>	GRA221	,	Thursday	,	9:00	,	DR	,	ML101	</item>
+                <item>	GRA223	,	Thursday	,	14:00	,	DR	,	ML101	</item>
+                <item>	ARCH465	,	Wednesday	,	17:00	,	ED	,	Amphy Theatre	</item>
+                <item>	ARCH416	,	Thursday	,	9:00	,	DM	,	Amphy Theatre	</item>
+                <item>	ARC373	,	Wednesday	,	9:00	,	DM	,	Amphy Theatre	</item>
+                <item>	ARC352	,	Thursday	,	14:00	,	SC	,	ADA304	</item>
+                <item>	THM113	,	Monday	,	15:00	,		,	Millenium Building	</item>
+                <item>	ELIT201	,	Monday	,	9:00	,		,	A1.7	</item>
+                <item>	THY117	,	Tuesday	,	9:00	,	LS	,		</item>
+                <item>	TFL101.1	,	Tuesday	,	17:00	,		,	Victory	</item>
+                <item>	TFL101.2	,	Wednesday	,	17:00	,		,	Victory	</item>
+                <item>	TFL101.3	,	Monday	,	18:00	,		,	Victory	</item>
+                <item>	TFL101.4	,	Thursday	,	18:00	,		,	Victory	</item>
+                <item>	TFL102	,	Wednesday	,	18:00	,		,	Victory	</item>
+                <item>	Bus101.1	,	Monday	,	12:00	,	CC	,	A3.7	</item>
+                <item>	Bus101.2	,	Monday	,	15:00	,	CC	,	A2.9	</item>
+                <item>	Bus101.3	,	Tuesday	,	12:00	,	JO	,	A3.2	</item>
+                <item>	Bus108	,	Tuesday	,	15:00	,	IC	,	A2.9	</item>
+                <item>	Bus203.1	,	Monday	,	9:00	,	DC	,	A2.9	</item>
+                <item>	Bus203.2	,	Tuesday	,	9:00	,	DC	,	A2.9	</item>
+                <item>	Bus204	,	Wednesday	,	9:00	,	DC	,	A3.7	</item>
+                <item>	Bus205.1	,	Friday	,	15:00	,	IKE	,	A3.7	</item>
+                <item>	Bus205.2	,	Thursday	,	15:00	,	IKE	,	A3.2	</item>
+                <item>	Bus205.3	,	Wednesday	,	9:00	,	IKE	,	A2.9	</item>
+                <item>	Bus206	,	Thursday	,	9:00	,	IKE	,	A3.3	</item>
+                <item>	Bus207	,	Monday	,	9:00	,	PH	,	A3.7	</item>
+                <item>	Bus207	,	Friday	,	15:00	,	PH	,	Patriot	</item>
+                <item>	Bus211.1/Econ101.1	,	Wednesday	,	12:00	,	ALM	,	A3.7	</item>
+                <item>	Bus211.3/Econ101.3	,	Friday	,	12:00	,	ALM	,	A3.7	</item>
+                <item>	Bus212.1/Econ102.1	,	Tuesday	,	15:00	,	IKE	,	A3.7	</item>
+                <item>	Bus212.2/Econ102.2	,	Wednesday	,	12:00	,	IKE	,	A3.3	</item>
+                <item>	Bus213	,	Wednesday	,	12:00	,	JO	,	A3.2	</item>
+                <item>	Bus301.1	,	Tuesday	,	12:00	,	PB	,	A3.3	</item>
+                <item>	BUs301.2	,	Wednesday	,	9:00	,	PB	,	A3.3	</item>
+                <item>	Bus303.1	,	Thursday	,	12:00	,	PH	,	A2.9	</item>
+                <item>	Bus305.1/Bus305.2	,	Thursday	,	9:00	,	BT	,	A2.9	</item>
+                <item>	Bus307.1	,	Monday	,	9:00	,	AZ	,	A3.6	</item>
+                <item>	Bus307.2	,	Monday	,	12:00	,	AZ	,	A3.6	</item>
+                <item>	Bus308	,	Wednesday	,	15:00	,		,	A3.7	</item>
+                <item>	Bus315.1	,	Thursday	,	15:00	,	PB	,	A3.6	</item>
+                <item>	Bus315.2	,	Friday	,	9:00	,	PB	,	A2.9	</item>
+                <item>	Bus318	,	Wednesday	,	15:00	,	JO	,	A3.4	</item>
+                <item>	Bus401	,	Thursday	,	15:00	,	IC	,	A2.9	</item>
+                <item>	Bus404.1	,	Monday	,	15:00	,	LE	,	Patriot	</item>
+                <item>	Bus406	,	Tuesday	,	12:00	,	JO	,	A3.2	</item>
+                <item>	Bus407	,	Friday	,	9:00	,	PH	,	A3.4	</item>
+                <item>	Bus412	,	Monday	,	9:00	,	IB	,	A3.2	</item>
+                <item>	Bus414	,	Tuesday	,	15:00	,	AZ	,	A3.4	</item>
+                <item>	Bus417	,	Monday	,	12:00	,	IB	,	A3.3	</item>
+                <item>	Bus423	,	Wednesday	,	9:00	,	AZ	,	A3.4	</item>
+                <item>	Bus430	,	Tuesday	,	12:00	,	PH	,	A3.6	</item>
+                <item>	Bus438	,	Wednesday	,	12:00	,	IB	,	Mislab	</item>
+                <item>	Bus444	,	Wednesday	,	15:00	,	PH	,	FL101	</item>
+                <item>	Bus445	,	Friday	,	15:00	,	ES	,	A2.9	</item>
+                <item>	Bus453	,	Tuesday	,	15:00	,	JO	,	FL101	</item>
+                <item>	Bus454	,	Friday	,	15:00	,	IC	,	FL101	</item>
+                <item>	Bus456	,	Friday	,	12:00	,	CC	,	A3.6	</item>
+                <item>	Bus458	,	Thursday	,	9:00	,	PB	,	A3.2	</item>
+                <item>	Bus462	,	Tuesday	,	9:00	,	IC	,	A3.6	</item>
+                <item>	Cis207	,	Thursday	,	9:00	,	MAK	,	FL101	</item>
+                <item>	Cis209	,	Tuesday	,	12:00	,	SF	,	FL102	</item>
+                <item>	Cis301	,	Monday	,	15:00	,	SF	,	FL101	</item>
+                <item>	Cis307	,	Wednesday	,	12:00	,	MAK	,	FL101	</item>
+                <item>	Cis309	,	Monday	,	15:00	,	MAK	,	FL101	</item>
+                <item>	Cis313	,	Thursday	,	12:00	,	AS	,	A3.6	</item>
+                <item>	Cis401	,	Wednesday	,	12:00	,	AS	,	A3.6	</item>
+                <item>	Cis403	,	Monday	,	9:00	,	AK	,	MISLAB	</item>
+                <item>	Cis415	,	Tuesday	,	9:00	,	AS	,	FL102	</item>
+                <item>	Cis420	,	Thursday	,	15:00	,	SF	,	FL101	</item>
+                <item>	Cs201.1	,	Monday	,	12:00	,	TWG	,	A2.9	</item>
+                <item>	Cs201.2	,	Tuesday	,	9:00	,	TWG	,	A3.7	</item>
+                <item>	Cs201.3	,	Wednesday	,	9:00	,	TWG	,	A3.2	</item>
+                <item>	Cs201.4	,	Friday	,	12:00	,	TWG	,	A2.9	</item>
+                <item>	Cs202.1	,	Tuesday	,	12:00	,	TWG	,	A2.9	</item>
+                <item>	Cs202.2	,	Thursday	,	9:00	,	TWG	,	A3.7	</item>
+                <item>	Cs202.3	,	Friday	,	9:00	,	TWG	,	A3.3	</item>
+                <item>	Econ101.2/Bus211.2	,	Thursday	,	12:00	,	DK	,	A3.7	</item>
+                <item>	Econ203	,	Wednesday	,	15:00	,	ALM	,	A2.9	</item>
+                <item>	Econ301	,	Tuesday	,	9:00	,	ALM	,	A3.3	</item>
+                <item>	Econ304	,	Tuesday	,	15:00	,	DC	,	A3.3	</item>
+                <item>	Econ305	,	Tuesday	,	12:00	,	AZ	,	FL101	</item>
+                <item>	Econ307	,	Wednesday	,	12:00	,	DK	,	FL102	</item>
+                <item>	Econ401	,	Thursday	,	12:00	,	IKE	,	A3.2	</item>
+                <item>	Econ402/Bus403	,	Friday	,	9:00	,	ALM	,	A3.6	</item>
+                <item>	Econ404	,	Tuesday	,	9:00	,	IB	,	A3.4	</item>
+                <item>	Econ405/Bus419	,	Friday	,	12:00	,	FA	,	A3.2	</item>
+                <item>	Econ418	,	Wednesday	,	9:00	,	DK	,	FL101	</item>
+                <item>	Econ422	,	Thursday	,	9:00	,	FA	,	A3.4	</item>
+                <item>	Econ501	,	Monday	,	18:00	,	ALM	,	Patriot	</item>
+                <item>	Egl101.1	,	Monday	,	12:00	,	SB	,	Patriot	</item>
+                <item>	Egl101.2	,	Tuesday	,	9:00	,	SB	,	A3.2	</item>
+                <item>	Egl101.3	,	Tuesday	,	12:00	,	SB	,	A3.7	</item>
+                <item>	Egl101.4	,	Thursday	,	9:00	,	SB	,	Patriot	</item>
+                <item>	Egl101.5	,	Friday	,	12:00	,	SB	,	Patriot	</item>
+                <item>	Egl102.1	,	Wednesday	,	12:00	,	SB	,	Patriot	</item>
+                <item>	Egl102.2	,	Friday	,	18:00	,	SB	,	Patriot	</item>
+                <item>	Isma500	,	Wednesday	,	18:00	,	SF	,	FL101	</item>
+                <item>	Isma504	,	Tuesday	,	18:00	,	AK	,	MISLAB	</item>
+                <item>	Isma509	,	Thursday	,	18:00	,	AS	,	A3.4	</item>
+                <item>	Isma573	,	Tuesday	,	18:00	,	MAK	,	A3.3	</item>
+                <item>	Isma602	,	Wednesday	,	18:00	,	AK	,	MISLAB	</item>
+                <item>	Isma604	,	Friday	,	18:00	,	AK	,	MISLAB	</item>
+                <item>	Isma630	,	Monday	,	18:00	,	AK	,	MISLAB	</item>
+                <item>	Mark500	,	Thursday	,	18:00	,	JO	,	A3.3	</item>
+                <item>	Mark601	,	Friday	,	18:00	,	JO	,	A3.4	</item>
+                <item>	Mark603	,	Thursday	,	18:00	,	CC	,	A3.6	</item>
+                <item>	Mark610	,	Monday	,	18:00	,	AT	,	A3.2	</item>
+                <item>	Mat101.1	,	Wednesday	,	15:00	,	BT	,	A3.6	</item>
+                <item>	Mat101.2	,	Wednesday	,	12:00	,	BT	,	A2.9	</item>
+                <item>	Mat101.3	,	Tuesday	,	12:00	,	BT	,	A3.4	</item>
+                <item>	Mat102.1	,	Monday	,	9:00	,	BT	,	Patriot	</item>
+                <item>	Mat102.2	,	Wednesday	,	9:00	,	BT	,	Patriot	</item>
+                <item>	Mgmt502	,	Monday	,	18:00	,	LE	,	A2.9	</item>
+                <item>	Mgmt503	,	Wednesday	,	18:00	,	YO	,	A3.7	</item>
+                <item>	Mgmt507	,	Tuesday	,	18:00	,	CC	,	A3.7	</item>
+                <item>	Mgmt509	,	Friday	,	18:00	,	IC	,	A3.2	</item>
+                <item>	Mgmt512	,	Friday	,	15:00	,	LE	,	A3.4	</item>
+                <item>	Mgmt601	,	Monday	,	18:00	,	YO	,	A3.6	</item>
+                <item>	Mgmt604.1/Mgmt500.1	,	Tuesday	,	18:00	,	FA	,	A2.9	</item>
+                <item>	Mgmt607	,	Wednesday	,	18:00	,	LE	,	A3.2	</item>
+                <item>	Mgmt615	,	Tuesday	,	18:00	,	AT	,	A3.2	</item>
+                <item>	Psyc100.1	,	Tuesday	,	15:00	,		,	Patriot	</item>
+                <item>	Psyc100.2	,	Friday	,	9:00	,		,	A3.7	</item>
+                <item>	Psyc100.3	,	Friday	,	15:00	,		,	A3.6	</item>
+                <item>	Socy100.1	,	Wednesday	,	12:00	,	FA	,	A3.4	</item>
+                <item>	Socy100.2	,	Tuesday	,	9:00	,	FA	,	Patriot	</item>
+                <item>	Tbus101	,	Monday	,	12:00	,	YO	,	A3.2	</item>
+                <item>	Tbus203	,	Wednesday	,	9:00	,	IB	,	FL102	</item>
+                <item>	Tbus301.1	,	Tuesday	,	12:00	,	VE	,	Patriot	</item>
+                <item>	Tbus301.2	,	Friday	,	12:00	,	YO	,	A3.3	</item>
+                <item>	Tbus303	,	Thursday	,	15:00	,	VE	,	A3.3	</item>
+                <item>	Tbus315	,	Tuesday	,	15:00	,	VE	,	FL102	</item>
+                <item>	TCS201	,	Monday	,	15:00	,	VE	,	A3.3	</item>
+                <item>	ABSM101	,	Thursday	,	15:00	,	NH	,	TP104	</item>
+                <item>	BUS101	,		,		,	BF	,		</item>
+                <item>	ACOM101	,		,		,		,		</item>
+                <item>	ACOM101	,		,		,		,		</item>
+                <item>	APRE101	,	Wednesday	,	12:00	,	YJ	,	TP104	</item>
+                <item>	APRE101	,	Tuesday	,	16:00	,	NS	,	TP104	</item>
+                <item>	APRE103	,	Tuesday	,	12:00	,	YJ	,	TP206	</item>
+                <item>	APRE103	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	APRE201	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	APRE201	,	Monday	,	12:00	,	SB	,	TP206	</item>
+                <item>	APRE203	,	Friday	,	15:00	,	TC	,	Millenium	</item>
+                <item>	APRE203	,	Friday	,	9:00	,	YJ	,	TP206	</item>
+                <item>	APRE205	,	Wednesday	,	9:00	,	SB	,	TP104	</item>
+                <item>	APRE205	,	Thursday	,	9:00	,	NH	,	TP104	</item>
+                <item>	APRE207	,	Monday	,	12:00	,	NH	,	TP104	</item>
+                <item>	APRE207	,	Thursday	,	9:00	,	YJ	,	TP206	</item>
+                <item>	BIL101	,		,		,		,		</item>
+                <item>	BIL103	,		,		,		,		</item>
+                <item>	BIL103	,		,		,		,		</item>
+                <item>	COMP103	,		,		,		,		</item>
+                <item>	COMP103	,		,		,		,		</item>
+                <item>	DPY101	,	Wednesday	,	12:00	,	YJ	,	TP104	</item>
+                <item>	DPY101	,	Tuesday	,	16:00	,	NS	,	TP104	</item>
+                <item>	DPY103	,	Thursday	,	15:00	,	NH	,	TP104	</item>
+                <item>	DPY103	,		,		,	BF	,		</item>
+                <item>	DPY105	,		,		,		,		</item>
+                <item>	DPY201	,	Monday	,	9:00	,	HS	,	TP104	</item>
+                <item>	DPY202	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	DPY203	,	Friday	,	12:00	,	HS	,	TP206	</item>
+                <item>	DPY205	,	Wednesday	,	15:00	,	HS	,	TP104	</item>
+                <item>	DPY207	,		,		,		,		</item>
+                <item>	DPY301	,	Monday	,	15:00	,	FD	,	TP206	</item>
+                <item>	DPY303	,	Friday	,	9:00	,	NH	,	TP104	</item>
+                <item>	DPY305	,	Monday	,	12:00	,	NH	,	TP104	</item>
+                <item>	DPY307	,	Thursday	,	12:00	,	FD	,	TP205	</item>
+                <item>	DPY401	,	Monday	,	12:00	,	NH	,	TP104	</item>
+                <item>	EGL101	,		,		,		,		</item>
+                <item>	EFL101	,		,		,		,		</item>
+                <item>	JRB101	,	Monday	,	12:00	,	CH	,	TP205	</item>
+                <item>	JRB103	,	Wednesday	,	12:00	,	YJ	,	TP104	</item>
+                <item>	JRB103	,	Tuesday	,	16:00	,	NS	,	TP104	</item>
+                <item>	JRB017	,		,		,		,		</item>
+                <item>	JRB201	,	Wednesday	,	9:00	,	AB	,	TP206	</item>
+                <item>	JRB203	,	Monday	,	9:00	,	HS	,	TP104	</item>
+                <item>	JRB205	,	Tuesday	,	9:00	,	SB	,	TP206	</item>
+                <item>	JRB205	,	Friday	,	9:00	,	FA	,	TP205	</item>
+                <item>	JRB206	,	Friday	,	12:00	,	HS	,	TP206	</item>
+                <item>	JRB207	,	Wednesday	,	12:00	,	TC	,	Millenium	</item>
+                <item>	JRB209	,	Tuesday	,	9:00	,	CH	,	TP104	</item>
+                <item>	JRB301	,	Thursday	,	9:00	,	CH	,	A1.10	</item>
+                <item>	JRB303	,	Tuesday	,	15:00	,	FD	,	TP206	</item>
+                <item>	JRB305	,		,		,		,		</item>
+                <item>	JRB307	,	Friday	,	9:00	,	TC	,	Millenium	</item>
+                <item>	JRB309	,	Monday	,	15:00	,	CH	,	A1.10	</item>
+                <item>	JRB401	,	Wednesday	,	16:00	,	NS	,	TP206	</item>
+                <item>	JRB403	,	Wednesday	,	16:00	,	NS	,	TP205	</item>
+                <item>	JRB405	,	Tuesday	,	9:00	,	AB	,	A1.10	</item>
+                <item>	NH001	,		,		,		,		</item>
+                <item>	NH001	,		,		,		,		</item>
+                <item>	TAR101	,		,		,		,		</item>
+                <item>	TFL101	,		,		,		,		</item>
+                <item>	PRE101	,	Wednesday	,	12:00	,	YJ	,	TP104	</item>
+                <item>	PRE101	,	Tuesday	,	16:00	,	NS	,	TP104	</item>
+                <item>	PRE103	,	Thursday	,	15:00	,	NH	,	TP104	</item>
+                <item>	PRE103	,		,		,	BF	,		</item>
+                <item>	PRE105	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	PRE105	,	Tuesday	,	12:00	,	YJ	,	TP206	</item>
+                <item>	PRE201	,	Tuesday	,	12:00	,	NS	,	TP205	</item>
+                <item>	POLS101	,		,		,	BF	,		</item>
+                <item>	PRE202	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	PRE202	,	Tuesday	,	12:00	,	YJ	,	TP206	</item>
+                <item>	PRE203	,	Friday	,	12:00	,	YJ	,	TP206	</item>
+                <item>	PRE203	,	Thursday	,	12:00	,	HS	,	A1.10	</item>
+                <item>	PRE205	,	Tuesday	,	9:00	,	MG	,	TP206	</item>
+                <item>	PRE205	,	Friday	,	9:00	,	SB	,	TP205	</item>
+                <item>	PRE209	,	Monday	,	9:00	,	FA	,	TP104	</item>
+                <item>	ECON101	,		,		,	BF	,		</item>
+                <item>	PRE211	,	Wednesday	,	15:00	,	HS	,	TP104	</item>
+                <item>	BUS205	,		,		,		,		</item>
+                <item>	PRE303	,	Tuesday	,	15:00	,	FD	,	TP206	</item>
+                <item>	PRE303	,	Monday	,	9:00	,	YJ	,	TP205	</item>
+                <item>	PRE305	,	Monday	,	15:00	,	AK	,	TP104	</item>
+                <item>	PRE305	,	Wednesday	,		,	NS	,	TP205	</item>
+                <item>	PRE307	,	Friday	,	9:00	,	NH	,	TP104	</item>
+                <item>	BUS301	,		,		,	BF	,		</item>
+                <item>	PRE309	,	Thursday	,	12:00	,	FD	,	TP205	</item>
+                <item>	BUS303	,		,		,	BF	,		</item>
+                <item>	PRE311	,	Monday	,	12:00	,	NH	,	TP104	</item>
+                <item>	BUS309	,		,		,	BF	,		</item>
+                <item>	PRE401	,	Monday	,	12:00	,	NH	,	TP104	</item>
+                <item>	PRE401	,	Thursday	,	9:00	,	YJ	,	TP206	</item>
+                <item>	PRE403	,	Wednesday	,	15:00	,	MG	,	TP206	</item>
+                <item>	PRE403	,	Tuesday	,	15:00	,	NH	,	TP205	</item>
+                <item>	PRE405	,	Monday	,	15:00	,	FD	,	TP206	</item>
+                <item>	PRE405	,	Monday	,	12:00	,	SB	,	TP206	</item>
+                <item>	PRE105	,	Tuesday	,	12:00	,	YJ	,	TP206	</item>
+                <item>	PRE105	,	Wednesday	,	12:00	,	NH	,	TP206	</item>
+                <item>	RTC101	,	Wednesday	,	12:00	,	YJ	,	TP104	</item>
+                <item>	RTC103	,	Thursday	,	9:00	,	SB	,	TP205	</item>
+                <item>	RTC105	,	Thursday	,	9:00	,	SB	,	TP205	</item>
+                <item>	RTC201	,	Friday	,	12:00	,	AK	,	TP207	</item>
+                <item>	RTC201	,	Friday	,	9:00	,	TC	,	Millenium	</item>
+                <item>	RTC211	,	Monday	,	9:00	,	HS	,	TP104	</item>
+                <item>	ECON101	,		,		,	BF	,		</item>
+                <item>	RTC214	,	Thursday	,	15:00	,	AK	,	TP206	</item>
+                <item>	RTC214	,	Thursday	,	15:00	,	CH	,	A1.10	</item>
+                <item>	RTC304	,	Tuesday	,	9:00	,	AK	,	TP205	</item>
+                <item>	RTC304	,	Friday	,	9:00	,	DZ	,	A1.10	</item>
+                <item>	RTC306	,	Friday	,	9:00	,	YJ	,	TP206	</item>
+                <item>	RTC306	,	Friday	,	15:00	,	TC	,	Millenium	</item>
+                <item>	RTC307	,	Wednesday	,	9:00	,	AB	,	TP206	</item>
+                <item>	RTC307	,	Friday	,	12:00	,	SB	,	TP104	</item>
+                <item>	RTC338	,	Wednesday	,	9:00	,	SB	,	TP104	</item>
+                <item>	RTC338	,	Monday	,	15:00	,	FD	,	TP206	</item>
+                <item>	RTC339	,	Tuesday	,	15:00	,	FD	,	TP206	</item>
+                <item>	RTC339	,	Monday	,	9:00	,	YJ	,	TP205	</item>
+                <item>	RTC407	,	Friday	,	15:00	,	MG	,	TP206	</item>
+                <item>	RTC407	,	Monday	,	12:00	,	FA	,	A1.10	</item>
+                <item>	RTC410	,	Wednesday	,	12:00	,	AK	,	TP205	</item>
+                <item>	RTC410	,	Wednesday	,	12:00	,	CH	,	A1.10	</item>
+                <item>	Eng106	,	Monday	,	9:00	,	ST	,	Lr1	</item>
+                <item>	Mt112.1	,	Monday	,	9:00	,	ZY	,	Lr3	</item>
+                <item>	Mt207.1	,	Monday	,	9:00	,	BE	,	Tp101	</item>
+                <item>	Mt111.3	,	Monday	,	9:00	,	AL	,	Tp102	</item>
+                <item>	IE405	,	Monday	,	9:00	,	BT	,	Tp201	</item>
+                <item>	Econ201	,	Monday	,	9:00	,	SP	,	Tp202	</item>
+                <item>	Cven303	,	Monday	,	9:00	,	MA	,	Tp203	</item>
+                <item>	Kim101	,	Monday	,	9:00	,	MO	,	Tp204	</item>
+                <item>	Een347	,	Monday	,	9:00	,	KD	,	A2.10	</item>
+                <item>	CEN307	,	Monday	,	9:00	,	TT	,	ITDEL	</item>
+                <item>	MUH205	,	Monday	,	9:00	,	KT	,	C.Lab	</item>
+                <item>	ME301	,	Monday	,	9:00	,	KB	,	PLC	</item>
+                <item>	Eng101.3	,	Tuesday	,	9:00	,	HA	,	Lr1	</item>
+                <item>	Mt111.2	,	Tuesday	,	9:00	,	AL	,	Lr3	</item>
+                <item>	Mt207.3	,	Tuesday	,	9:00	,	BE	,	Tp101	</item>
+                <item>	Eng205	,	Tuesday	,	9:00	,	AH	,	Tp102	</item>
+                <item>	IE303	,	Tuesday	,	9:00	,	BT	,	Tp201	</item>
+                <item>	Ie410	,	Tuesday	,	9:00	,	ZA	,	Tp202	</item>
+                <item>	Cven309	,	Tuesday	,	9:00	,	KB	,	Tp203	</item>
+                <item>	Muh101	,	Tuesday	,	9:00	,	S2	,	Tp204	</item>
+                <item>	Cen477	,	Tuesday	,	9:00	,	TT	,	A2.10	</item>
+                <item>	Elm301	,	Tuesday	,	9:00	,	AZ	,	ITDEL	</item>
+                <item>	Me303	,	Tuesday	,	9:00	,		,	TP.Lab	</item>
+                <item>	Cven480	,	Tuesday	,	9:00	,	OD	,	PLC	</item>
+                <item>	Mt111.1	,	Wednesday	,	9:00	,	BE	,	Lr1	</item>
+                <item>	Mt112.2	,	Wednesday	,	9:00	,	ZY	,	Lr3	</item>
+                <item>	Ch101.3	,	Wednesday	,	9:00	,	MO	,	Tp101	</item>
+                <item>	Eng203.3	,	Wednesday	,	9:00	,	PA	,	Tp102	</item>
+                <item>	Ie474	,	Wednesday	,	9:00	,	BT	,	Tp201	</item>
+                <item>	Elm303	,	Wednesday	,	9:00	,	KD	,	Tp202	</item>
+                <item>	Cven311	,	Wednesday	,	9:00	,	KO	,	Tp203	</item>
+                <item>	Cven312	,	Wednesday	,	9:00	,	OD	,	Tp204	</item>
+                <item>	EENN301	,	Wednesday	,	9:00	,	AZ	,	A2.10	</item>
+                <item>	Cen301	,	Wednesday	,	9:00	,	IE	,	ITDEL	</item>
+                <item>	Me309	,	Wednesday	,	9:00	,	KB	,	TP.Lab	</item>
+                <item>	Muh102	,	Wednesday	,	9:00	,	NL	,	C.Lab	</item>
+                <item>	Cven202	,	Thursday	,	9:00	,	MB	,	Lr1	</item>
+                <item>	Ch101.2	,	Thursday	,	9:00	,	MO	,	Lr3	</item>
+                <item>	Mt207.3	,	Thursday	,	9:00	,	ZA	,	Tp101	</item>
+                <item>	Eng101.1	,	Thursday	,	9:00	,	BE	,	Tp102	</item>
+                <item>	IE407	,	Thursday	,	9:00	,	BT	,	Tp201	</item>
+                <item>	Een303	,	Thursday	,	9:00	,	KD	,	Tp203	</item>
+                <item>	Mtm111	,	Thursday	,	9:00	,	HA	,	Tp204	</item>
+                <item>	Muh203	,	Thursday	,	9:00	,	NL	,	A2.10	</item>
+                <item>	Cen403	,	Thursday	,	9:00	,	IE	,	ITDEL	</item>
+                <item>	Ekm307	,	Thursday	,	9:00	,	SS	,	C.Lab	</item>
+                <item>	Me202	,	Thursday	,	9:00	,		,		</item>
+                <item>	Cven477	,	Thursday	,	9:00	,	KO	,	PLC	</item>
+                <item>	Ps111.1	,	Friday	,	9:00	,	SP	,	Lr1	</item>
+                <item>	Ps112.1	,	Friday	,	9:00	,	KT	,	Lr3	</item>
+                <item>	Eng201.2	,	Friday	,	9:00	,	CO	,	Tp101	</item>
+                <item>	Cven307	,	Friday	,	9:00	,	KO	,	Tp102	</item>
+                <item>	Ie311	,	Friday	,	9:00	,	ZA	,	Tp201	</item>
+                <item>	Een347	,	Friday	,	9:00	,	KD	,	Tp202	</item>
+                <item>	Ie406	,	Friday	,	9:00	,	ST	,	Tp203	</item>
+                <item>	Mtm112	,	Friday	,	9:00	,	BE	,	Tp204	</item>
+                <item>	Mtm211	,	Friday	,	9:00	,	HA	,	A2.10	</item>
+                <item>	Eng103.2	,	Friday	,	9:00	,	MA	,	ITDEL	</item>
+                <item>	Cen4xx	,	Friday	,	9:00	,	PA	,	C.Lab	</item>
+                <item>	Eng106	,	Monday	,	10:00	,	ST	,	Lr1	</item>
+                <item>	Mt112.1	,	Monday	,	10:00	,	ZY	,	Lr3	</item>
+                <item>	Mt207.1	,	Monday	,	10:00	,	BE	,	Tp101	</item>
+                <item>	Mt111.3	,	Monday	,	10:00	,	AL	,	Tp102	</item>
+                <item>	Ie405	,	Monday	,	10:00	,	BT	,	Tp201	</item>
+                <item>	Econ201	,	Monday	,	10:00	,	SP	,	Tp202	</item>
+                <item>	Cven303	,	Monday	,	10:00	,	MA	,	Tp203	</item>
+                <item>	Kim101	,	Monday	,	10:00	,	MO	,	Tp204	</item>
+                <item>	Een347	,	Monday	,	10:00	,	KD	,	A2.10	</item>
+                <item>	Cen307	,	Monday	,	10:00	,	TT	,	ITDEL	</item>
+                <item>	Muh205	,	Monday	,	10:00	,	KT	,	C.Lab	</item>
+                <item>	Me301	,	Monday	,	10:00	,	KB	,	PLC	</item>
+                <item>	Eng101.3	,	Tuesday	,	10:00	,	HA	,	Lr1	</item>
+                <item>	Mt111.2	,	Tuesday	,	10:00	,	AL	,	Lr3	</item>
+                <item>	Mt207.2	,	Tuesday	,	10:00	,	BE	,	Tp101	</item>
+                <item>	Eng205	,	Tuesday	,	10:00	,	AH	,	Tp102	</item>
+                <item>	Ie303	,	Tuesday	,	10:00	,	BT	,	Tp201	</item>
+                <item>	Een465	,	Tuesday	,	10:00	,	SK	,	Tp202	</item>
+                <item>	Ie410	,	Tuesday	,	10:00	,	ZA	,	Tp203	</item>
+                <item>	Me303	,	Tuesday	,	10:00	,	KB	,	Tp204	</item>
+                <item>	Muh101	,	Tuesday	,	10:00	,	S2	,	A2.10	</item>
+                <item>	Cen477	,	Tuesday	,	10:00	,	TT	,	ITDEL	</item>
+                <item>	Elm301	,	Tuesday	,	10:00	,	AZ	,	TP.Lab	</item>
+                <item>	Ene201	,	Tuesday	,	10:00	,		,		</item>
+                <item>	Cven480	,	Tuesday	,	10:00	,	OD	,	PLC	</item>
+                <item>	Cven309	,	Tuesday	,	10:00	,		,		</item>
+                <item>	Mt111.1	,	Wednesday	,	10:00	,	BE	,	Lr1	</item>
+                <item>	Mt112.2	,	Wednesday	,	10:00	,	ZY	,	Lr3	</item>
+                <item>	Ch101.3	,	Wednesday	,	10:00	,	MO	,	Tp101	</item>
+                <item>	Eng203.3	,	Wednesday	,	10:00	,	PA	,	Tp102	</item>
+                <item>	Ie474	,	Wednesday	,	10:00	,	BT	,	Tp201	</item>
+                <item>	Elm303	,	Wednesday	,	10:00	,	KD	,	Tp202	</item>
+                <item>	Cven311	,	Wednesday	,	10:00	,	KO	,	Tp203	</item>
+                <item>	Cven312	,	Wednesday	,	10:00	,	OD	,	Tp204	</item>
+                <item>	Een301	,	Wednesday	,	10:00	,	AZ	,	A2.10	</item>
+                <item>	Cen301	,	Wednesday	,	10:00	,	IE	,	ITDEL	</item>
+                <item>	Me309	,	Wednesday	,	10:00	,	KB	,	TP.Lab	</item>
+                <item>	Muh102	,	Wednesday	,	10:00	,	NL	,	C.Lab	</item>
+                <item>	Cven202	,	Thursday	,	10:00	,	MB	,	Lr1	</item>
+                <item>	Ch101.2	,	Thursday	,	10:00	,	MO	,	Lr3	</item>
+                <item>	Mt207.3	,	Thursday	,	10:00	,	ZA	,	Tp101	</item>
+                <item>	Eng101.1	,	Thursday	,	10:00	,	BE	,	Tp102	</item>
+                <item>	Ie407	,	Thursday	,	10:00	,	BT	,	Tp201	</item>
+                <item>	EEN475	,	Thursday	,	10:00	,	SK	,	Tp202	</item>
+                <item>	EEN303	,	Thursday	,	10:00	,	KD	,	TP203	</item>
+                <item>	MTM111	,	Thursday	,	10:00	,	HA	,	Tp204	</item>
+                <item>	Muh203	,	Thursday	,	10:00	,	NL	,	A2.10	</item>
+                <item>	CEN403	,	Thursday	,	10:00	,	IE	,	ITDEL	</item>
+                <item>	ELM307	,	Thursday	,	10:00	,	SS	,	C.Lab	</item>
+                <item>	ENE301	,	Thursday	,	10:00	,		,		</item>
+                <item>	CVEN477	,	Thursday	,	10:00	,	KO	,	PLC	</item>
+                <item>	Me202	,	Thursday	,	10:00	,		,		</item>
+                <item>	Ps111.1	,	Friday	,	10:00	,	SP	,	Lr1	</item>
+                <item>	Ps112.1	,	Friday	,	10:00	,	KT	,	Lr3	</item>
+                <item>	Eng201.2	,	Friday	,	10:00	,	CO	,	Tp101	</item>
+                <item>	Cven307	,	Friday	,	10:00	,	KO	,	Tp102	</item>
+                <item>	Ie311	,	Friday	,	10:00	,	ZA	,	Tp201	</item>
+                <item>	EEN347	,	Friday	,	10:00	,	KD	,	Tp202	</item>
+                <item>	IE406	,	Friday	,	10:00	,	ST	,	Tp203	</item>
+                <item>	MTM112	,	Friday	,	10:00	,	BE	,	Tp204	</item>
+                <item>	MTM211	,	Friday	,	10:00	,	HA	,	A2.10	</item>
+                <item>	ENG103.2	,	Friday	,	10:00	,	MA	,	ITDEL	</item>
+                <item>	CEN4xx	,	Friday	,	10:00	,	PA	,	C.Lab	</item>
+                <item>	Eng106	,	Monday	,	11:00	,	ST	,	Lr1	</item>
+                <item>	Mt112.1	,	Monday	,	11:00	,	ZY	,	Lr3	</item>
+                <item>	Mt207.1	,	Monday	,	11:00	,	BE	,	Tp101	</item>
+                <item>	Mt111.3	,	Monday	,	11:00	,	AL	,	Tp102	</item>
+                <item>	Ie405	,	Monday	,	11:00	,	BT	,	Tp201	</item>
+                <item>	Econ201	,	Monday	,	11:00	,	SP	,	Tp202	</item>
+                <item>	Cven303	,	Monday	,	11:00	,	MA	,	Tp203	</item>
+                <item>	KIm101	,	Monday	,	11:00	,	MO	,	Tp204	</item>
+                <item>	EEN307	,	Monday	,	11:00	,	KD	,	A2.10	</item>
+                <item>	CEN307	,	Monday	,	11:00	,	TT	,	ITDEL	</item>
+                <item>	Muh205	,	Monday	,	11:00	,	KT	,	C.Lab	</item>
+                <item>	Me301	,	Monday	,	11:00	,	KB	,	PLC	</item>
+                <item>	Eng101.3	,	Tuesday	,	11:00	,	HA	,	Lr1	</item>
+                <item>	Mt111.2	,	Tuesday	,	11:00	,	AL	,	Lr3	</item>
+                <item>	Mt207.2	,	Tuesday	,	11:00	,	BE	,	Tp101	</item>
+                <item>	Eng205	,	Tuesday	,	11:00	,	AH	,	Tp102	</item>
+                <item>	Ie303	,	Tuesday	,	11:00	,	BT	,	Tp201	</item>
+                <item>	EEN465	,	Tuesday	,	11:00	,	SK	,	Tp202	</item>
+                <item>	Ie410	,	Tuesday	,	11:00	,	ZA	,	Tp203	</item>
+                <item>	Ene201	,	Tuesday	,	11:00	,	KB	,	Tp204	</item>
+                <item>	Muh101	,	Tuesday	,	11:00	,	S2	,	A2.10	</item>
+                <item>	Cen477	,	Tuesday	,	11:00	,	TT	,	ITDEL	</item>
+                <item>	Elm301	,	Tuesday	,	11:00	,	AZ	,	TP.Lab	</item>
+                <item>	Cven480	,	Tuesday	,	11:00	,	OD	,		</item>
+                <item>	Cven309	,	Tuesday	,	11:00	,		,	Plc	</item>
+                <item>	Me303	,	Tuesday	,	11:00	,		,		</item>
+                <item>	Mt111.1	,	Wednesday	,	11:00	,	BE	,	Lr1	</item>
+                <item>	Mt112.2	,	Wednesday	,	11:00	,	ZY	,	Lr3	</item>
+                <item>	CH101.3	,	Wednesday	,	11:00	,	MO	,	Tp101	</item>
+                <item>	Eng203.3	,	Wednesday	,	11:00	,	PA	,	Tp102	</item>
+                <item>	IE474	,	Wednesday	,	11:00	,	BT	,	Tp201	</item>
+                <item>	Cen305	,	Wednesday	,	11:00	,	TT	,	Tp202	</item>
+                <item>	Cven311	,	Wednesday	,	11:00	,	KO	,	Tp203	</item>
+                <item>	Cven312	,	Wednesday	,	11:00	,	OD	,	Tp204	</item>
+                <item>	Een301	,	Wednesday	,	11:00	,	AZ	,	A2.10	</item>
+                <item>	Me309	,	Wednesday	,	11:00	,	KB	,	Tp.lab	</item>
+                <item>	Muh201	,	Wednesday	,	11:00	,	CO	,	Plc	</item>
+                <item>	Elm303	,	Wednesday	,	11:00	,	KD	,	E.lab	</item>
+                <item>	Cven202	,	Thursday	,	11:00	,	MB	,	Lr1	</item>
+                <item>	Ch101.2	,	Thursday	,	11:00	,	MO	,	Lr3	</item>
+                <item>	Mt207.3	,	Thursday	,	11:00	,	ZA	,	Tp101	</item>
+                <item>	Eng101.1	,	Thursday	,	11:00	,	BE	,	Tp102	</item>
+                <item>	Ie407	,	Thursday	,	11:00	,	BT	,	Tp201	</item>
+                <item>	Ene301	,	Thursday	,	11:00	,	SK	,	Tp202	</item>
+                <item>	Een303	,	Thursday	,	11:00	,	KD	,	Tp203	</item>
+                <item>	Mtm111	,	Thursday	,	11:00	,	HA	,	Tp204	</item>
+                <item>	Muh203	,	Thursday	,	11:00	,	NL	,	A2.10	</item>
+                <item>	Elm307	,	Thursday	,	11:00	,	SS	,	C.Lab	</item>
+                <item>	Cven477	,	Thursday	,	11:00	,	KO	,	PLC	</item>
+                <item>	Me202	,	Thursday	,	11:00	,		,		</item>
+                <item>	Een475	,	Thursday	,	11:00	,		,		</item>
+                <item>	Ps111.2	,	Friday	,	11:00	,	SP	,	Lr1	</item>
+                <item>	Mt111.3	,	Friday	,	11:00	,	AL	,	Lr3	</item>
+                <item>	Mt112.1	,	Friday	,	11:00	,	ZY	,	Tp101	</item>
+                <item>	Cven307	,	Friday	,	11:00	,	KO	,	Tp102	</item>
+                <item>	Ie311	,	Friday	,	11:00	,	ZA	,	Tp201	</item>
+                <item>	Ie406	,	Friday	,	11:00	,	ST	,	Tp203	</item>
+                <item>	Mtm112	,	Friday	,	11:00	,	BE	,	Tp204	</item>
+                <item>	Mtm211	,	Friday	,	11:00	,	HA	,	A2.10	</item>
+                <item>	Eng103.1	,	Friday	,	11:00	,	MA	,	ITDEL	</item>
+                <item>	Cen4xx	,	Friday	,	11:00	,	PA	,	C.Lab	</item>
+                <item>	Een305	,	Friday	,	11:00	,	SK	,	E.lab	</item>
+                <item>	Ps111.2	,	Monday	,	12:00	,	SP	,	Lr1	</item>
+                <item>	Ps112.2	,	Monday	,	12:00	,	KT	,	Lr3	</item>
+                <item>	Cven201.1	,	Monday	,	12:00	,	MB	,	Tp102	</item>
+                <item>	Mtm112	,	Monday	,	12:00	,	BE	,	Tp201	</item>
+                <item>	Cen403	,	Monday	,	12:00	,	IE	,	Tp202	</item>
+                <item>	Mtm211	,	Monday	,	12:00	,	HA	,	Tp203	</item>
+                <item>	Een307	,	Monday	,	12:00	,	BB	,	A2.10	</item>
+                <item>	Eng103.1	,	Monday	,	12:00	,	AL	,	ITDEL	</item>
+                <item>	Ae205.1	,	Monday	,	12:00	,		,		</item>
+                <item>	Me205.1	,	Monday	,	12:00	,		,		</item>
+                <item>	Mt211.2	,	Tuesday	,	12:00	,	ZY	,	Lr1	</item>
+                <item>	Ps111.3	,	Tuesday	,	12:00	,	AL	,	Lr3	</item>
+                <item>	Eng201.1	,	Tuesday	,	12:00	,	CO	,	Tp101	</item>
+                <item>	Eng102.1	,	Tuesday	,	12:00	,	NL	,	Tp102	</item>
+                <item>	Een465	,	Tuesday	,	12:00	,	SK	,	Tp202	</item>
+                <item>	Cven407	,	Tuesday	,	12:00	,	KO	,	TP204	</item>
+                <item>	Cen303	,	Tuesday	,	12:00	,	AH	,	ITDEL	</item>
+                <item>	Eng103.4	,	Tuesday	,	12:00	,	SP	,	TP.Lab	</item>
+                <item>	Ps112.1	,	Wednesday	,	12:00	,	KT	,	Lr1	</item>
+                <item>	Mt111.2	,	Wednesday	,	12:00	,	AL	,	Lr3	</item>
+                <item>	Eeen403	,	Wednesday	,	12:00	,	BB	,	Tp201	</item>
+                <item>	Cen305	,	Wednesday	,	12:00	,	TT	,	Tp202	</item>
+                <item>	Cven409	,	Wednesday	,	12:00	,	OD	,	A2.10	</item>
+                <item>	Eng103.3	,	Wednesday	,	12:00	,	SP	,	ITDEL	</item>
+                <item>	Muh201	,	Wednesday	,	12:00	,	CO	,	PLC	</item>
+                <item>	Mt111.1	,	Thursday	,	12:00	,	BE	,	Lr1	</item>
+                <item>	Ps111.3	,	Thursday	,	12:00	,	AL	,	Lr3	</item>
+                <item>	Mt112.2	,	Thursday	,	12:00	,	ZY	,	Tp101	</item>
+                <item>	Cven305	,	Thursday	,	12:00	,	MA	,	Tp102	</item>
+                <item>	Cen301	,	Thursday	,	12:00	,	IE	,	Tp201	</item>
+                <item>	Een475	,	Thursday	,	12:00	,	SK	,	Tp202	</item>
+                <item>	Elm307	,	Thursday	,	12:00	,	SS	,	C.Lab	</item>
+                <item>	Ene301	,	Thursday	,	12:00	,		,		</item>
+                <item>	Ps111.2	,	Friday	,	12:00	,	SP	,	Lr1	</item>
+                <item>	Mt111.3	,	Friday	,	12:00	,	AL	,	Lr3	</item>
+                <item>	Mt112.1	,	Friday	,	12:00	,	ZY	,	Tp101	</item>
+                <item>	Mt211.3	,	Friday	,	12:00	,	S2	,	Tp102	</item>
+                <item>	Fiz111	,	Friday	,	12:00	,	KT	,	Tp201	</item>
+                <item>	Cven306	,	Friday	,	12:00	,	OD	,	Tp202	</item>
+                <item>	Me201	,	Friday	,	12:00	,	KB	,	A2.10	</item>
+                <item>	Eng103.1	,	Friday	,	12:00	,	MA	,	ITDEL	</item>
+                <item>	Een305	,	Friday	,	12:00	,	SK	,	E.lab	</item>
+                <item>	Ae201	,	Friday	,	12:00	,		,		</item>
+                <item>	Ene305	,	Friday	,	12:00	,	MO	,	PLC	</item>
+                <item>	Mtm211	,	Monday	,	13:00	,	HA	,	Tp203	</item>
+                <item>	Eng103.1	,	Monday	,	13:00	,	AI	,	ITDEL	</item>
+                <item>	AE205.1	,	Monday	,	13:00	,		,		</item>
+                <item>	Me205.1	,	Monday	,	13:00	,		,		</item>
+                <item>	Ps111.2	,	Monday	,	13:00	,	SP	,	Lr1	</item>
+                <item>	Ps112.2	,	Monday	,	13:00	,	KT	,	Lr3	</item>
+                <item>	Cven201.1	,	Monday	,	13:00	,	MB	,	Tp102	</item>
+                <item>	Mtm112	,	Monday	,	13:00	,	BE	,	Tp201	</item>
+                <item>	Cen403	,	Monday	,	13:00	,	IE	,	Tp202	</item>
+                <item>	Mt211.2	,	Tuesday	,	13:00	,	ZY	,	Lr1	</item>
+                <item>	Ps111.3	,	Tuesday	,	13:00	,	AL	,	Lr3	</item>
+                <item>	Eng201.1	,	Tuesday	,	13:00	,	CO	,	Tp101	</item>
+                <item>	Eng102.1	,	Tuesday	,	13:00	,	NL	,	Tp102	</item>
+                <item>	Cven407	,	Tuesday	,	13:00	,	KO	,	Tp204	</item>
+                <item>	Cen303	,	Tuesday	,	13:00	,	AH	,	ITDEL	</item>
+                <item>	Eng103.4	,	Tuesday	,	13:00	,	SP	,	TP.Lab	</item>
+                <item>	Een303	,	Tuesday	,	13:00	,	KD	,	C.Lab	</item>
+                <item>	Elm303	,	Tuesday	,	13:00	,		,	Lab	</item>
+                <item>	Ps112.1	,	Wednesday	,	13:00	,	KT	,	Lr1	</item>
+                <item>	Mt111.2	,	Wednesday	,	13:00	,	AL	,	Lr3	</item>
+                <item>	Een403	,	Wednesday	,	13:00	,	BB	,	Tp201	</item>
+                <item>	Cven409	,	Wednesday	,	13:00	,	OD	,	A2.10	</item>
+                <item>	Eng103.3	,	Wednesday	,	13:00	,	SP	,	ITDEL	</item>
+                <item>	Mt111.1	,	Thursday	,	13:00	,	BE	,	Lr1	</item>
+                <item>	Ps111.3	,	Thursday	,	13:00	,	AL	,	Lr3	</item>
+                <item>	Mt112.2	,	Thursday	,	13:00	,	ZY	,	Tp101	</item>
+                <item>	Cven305	,	Thursday	,	13:00	,	MA	,	Tp102	</item>
+                <item>	Cen301	,	Thursday	,	13:00	,	IE	,	Tp201	</item>
+                <item>	Een301.L1	,	Thursday	,	13:00	,	AZ	,	E.lab	</item>
+                <item>	Mt211.3	,	Friday	,	13:00	,	S2	,	Tp102	</item>
+                <item>	Fiz111	,	Friday	,	13:00	,	KT	,	Tp201	</item>
+                <item>	Cven306	,	Friday	,	13:00	,	OD	,	Tp202	</item>
+                <item>	Ae201	,	Friday	,	13:00	,	KB	,	A2.10	</item>
+                <item>	Eng103.5	,	Friday	,	13:00	,	AI	,	TP.Lab	</item>
+                <item>	Elm347	,	Friday	,	13:00	,	CO	,	C.Lab	</item>
+                <item>	Me201	,	Friday	,	13:00	,		,		</item>
+                <item>	Ene305	,	Friday	,	13:00	,	MO	,	Plc	</item>
+                <item>	Mt211.1	,	Monday	,	14:00	,	ZY	,	Lr3	</item>
+                <item>	Eng204.1	,	Monday	,	14:00	,	ST	,	Tp101	</item>
+                <item>	Cven201.1	,	Monday	,	14:00	,	MB	,	Tp102	</item>
+                <item>	Een305	,	Monday	,	14:00	,	SK	,	Tp201	</item>
+                <item>	Cen303	,	Monday	,	14:00	,	AH	,	Tp204	</item>
+                <item>	Csn4x1	,	Monday	,	14:00	,	PA	,	A2.10	</item>
+                <item>	Ene403	,	Monday	,	14:00	,	SS	,	TP.Lab	</item>
+                <item>	Een417	,	Monday	,	14:00	,	AZ	,	Plc	</item>
+                <item>	Ae205.1	,	Monday	,	14:00	,		,		</item>
+                <item>	Me205.1	,	Monday	,	14:00	,		,		</item>
+                <item>	Ch101.1	,	Tuesday	,	14:00	,	MO	,	Lr1	</item>
+                <item>	Eng203.2	,	Tuesday	,	14:00	,	PA	,	Lr3	</item>
+                <item>	Mt211.3	,	Tuesday	,	14:00	,	S2	,	Tp101	</item>
+                <item>	Ie445	,	Tuesday	,	14:00	,	ST	,	Tp201	</item>
+                <item>	Mtm111	,	Tuesday	,	14:00	,	HA	,	Tp203	</item>
+                <item>	Cven407	,	Tuesday	,	14:00	,	KO	,	Tp204	</item>
+                <item>	Me305	,	Tuesday	,	14:00	,	KB	,	A2.10	</item>
+                <item>	Cen307	,	Tuesday	,	14:00	,	TT	,	ITDEL	</item>
+                <item>	Ene405	,	Tuesday	,	14:00	,		,	TP.Lab	</item>
+                <item>	Een303	,	Tuesday	,	14:00	,	KD	,	C.Lab	</item>
+                <item>	Elm303	,	Tuesday	,	14:00	,		,	Lab	</item>
+                <item>	Mt104.1	,	Wednesday	,	14:00	,	SS	,	Lr1	</item>
+                <item>	Eng102.2	,	Wednesday	,	14:00	,	PA	,	Lr3	</item>
+                <item>	Eng101.2	,	Wednesday	,	14:00	,	HA	,	Tp101	</item>
+                <item>	Eng201.3	,	Wednesday	,	14:00	,	SK	,	Tp102	</item>
+                <item>	Ie307	,	Wednesday	,	14:00	,	ST	,	Tp201	</item>
+                <item>	Cen420	,	Wednesday	,	14:00	,	NL	,	Tp203	</item>
+                <item>	Een484	,	Wednesday	,	14:00	,	IE	,	Tp204	</item>
+                <item>	Cven409	,	Wednesday	,	14:00	,	OD	,	A2.10	</item>
+                <item>	Me307	,	Wednesday	,	14:00	,	AL	,	PLC	</item>
+                <item>	Mt211.1	,	Thursday	,	14:00	,	ZY	,	Lr1	</item>
+                <item>	Ps112.2	,	Thursday	,	14:00	,	KT	,	Lr3	</item>
+                <item>	Eng204.2	,	Thursday	,	14:00	,	ST	,	Tp101	</item>
+                <item>	Eng201.4	,	Thursday	,	14:00	,	SK	,	Tp102	</item>
+                <item>	Cen301	,	Thursday	,	14:00	,	IE	,	Tp201	</item>
+                <item>	Een477	,	Thursday	,	14:00	,	CO	,	Tp202	</item>
+                <item>	Cven403	,	Thursday	,	14:00	,	MB	,	Tp203	</item>
+                <item>	Ene417	,	Thursday	,	14:00	,	KB	,	Tp204	</item>
+                <item>	Me203	,	Thursday	,	14:00	,	MO	,	A2.10	</item>
+                <item>	Eng103.5	,	Thursday	,	14:00	,	OD	,	ITDEL	</item>
+                <item>	Eng103.3	,	Thursday	,	14:00	,	AI	,	Tp.lab	</item>
+                <item>	Muh103	,	Thursday	,	14:00	,	SP	,	C.Lab	</item>
+                <item>	Ie401	,	Thursday	,	14:00	,	BT	,	Ergo.l	</item>
+                <item>	Ae203	,	Thursday	,	14:00	,		,		</item>
+                <item>	Ie402	,	Thursday	,	14:00	,	ZA	,		</item>
+                <item>	Een301.L1	,	Thursday	,	14:00	,	AZ	,	E.lab	</item>
+                <item>	Mt211.2	,	Friday	,	14:00	,	ZY	,	Lr1	</item>
+                <item>	Mt104.2	,	Friday	,	14:00	,	SS	,	Lr3	</item>
+                <item>	Eng203.1	,	Friday	,	14:00	,	NL	,	Tp101	</item>
+                <item>	Cen499	,	Friday	,	14:00	,	AZ	,	Tp201	</item>
+                <item>	Cven306	,	Friday	,	14:00	,	OD	,	Tp202	</item>
+                <item>	Acct101	,	Friday	,	14:00	,	SP	,	Tp203	</item>
+                <item>	Mtm207	,	Friday	,	14:00	,	HA	,	Tp204	</item>
+                <item>	Me201	,	Friday	,	14:00	,	KB	,	A2.10	</item>
+                <item>	Eng103.5	,	Friday	,	14:00	,	AI	,	Tp.lab	</item>
+                <item>	Elm347	,	Friday	,	14:00	,	CO	,	C.Lab	</item>
+                <item>	Ae201	,	Friday	,	14:00	,		,		</item>
+                <item>	Ene305	,	Friday	,	14:00	,	MO	,	Plc	</item>
+                <item>	Ps111.1	,	Monday	,	15:00	,	SP	,	Lr1	</item>
+                <item>	Mt211.1	,	Monday	,	15:00	,	ZY	,	Lr3	</item>
+                <item>	Eng204.1	,	Monday	,	15:00	,	ST	,	Tp101	</item>
+                <item>	Cven304	,	Monday	,	15:00	,	KO	,	Tp102	</item>
+                <item>	Een305	,	Monday	,	15:00	,	SK	,	Tp201	</item>
+                <item>	Muh102	,	Monday	,	15:00	,	NL	,	Tp202	</item>
+                <item>	Elm305	,	Monday	,	15:00	,	KT	,	Tp203	</item>
+                <item>	Cen303	,	Monday	,	15:00	,	AH	,	Tp204	</item>
+                <item>	Csn4x1	,	Monday	,	15:00	,	PA	,	A2.10	</item>
+                <item>	Eng103.2	,	Monday	,	15:00	,	AI	,	ITDEL	</item>
+                <item>	Ene403	,	Monday	,	15:00	,	SS	,	TP.Lab	</item>
+                <item>	Een417	,	Monday	,	15:00	,	AZ	,	Plc	</item>
+                <item>	Ch101.1	,	Tuesday	,	15:00	,	MO	,	Lr1	</item>
+                <item>	Eng203.2	,	Tuesday	,	15:00	,	PA	,	Lr3	</item>
+                <item>	Mt211.3	,	Tuesday	,	15:00	,	S2	,	Tp101	</item>
+                <item>	Cven301	,	Tuesday	,	15:00	,	SS	,	Tp102	</item>
+                <item>	Ie445	,	Tuesday	,	15:00	,	ST	,	Tp201	</item>
+                <item>	Elm347	,	Tuesday	,	15:00	,	CO	,	Tp202	</item>
+                <item>	Mtm111	,	Tuesday	,	15:00	,	HA	,	Tp203	</item>
+                <item>	Cven464	,	Tuesday	,	15:00	,	MA	,	Tp204	</item>
+                <item>	Me305	,	Tuesday	,	15:00	,	KB	,	A2.10	</item>
+                <item>	Cen307	,	Tuesday	,	15:00	,	TT	,	ITDEL	</item>
+                <item>	Ene405	,	Tuesday	,	15:00	,		,	TP.Lab	</item>
+                <item>	Een307	,	Tuesday	,	15:00	,	BB	,	C.Lab	</item>
+                <item>	Me206	,	Tuesday	,	15:00	,		,		</item>
+                <item>	Mt104.1	,	Wednesday	,	15:00	,	SS	,	Lr1	</item>
+                <item>	Eng102.2	,	Wednesday	,	15:00	,	PA	,	Lr3	</item>
+                <item>	Eng101.2	,	Wednesday	,	15:00	,	HA	,	Tp101	</item>
+                <item>	Eng201.3	,	Wednesday	,	15:00	,	SK	,	Tp102	</item>
+                <item>	Ie307	,	Wednesday	,	15:00	,	ST	,	Tp201	</item>
+                <item>	Fiz111	,	Wednesday	,	15:00	,	KT	,	Tp202	</item>
+                <item>	Cen420	,	Wednesday	,	15:00	,	NL	,	Tp203	</item>
+                <item>	Een484	,	Wednesday	,	15:00	,	IE	,	Tp204	</item>
+                <item>	Cven401	,	Wednesday	,	15:00	,	MB	,	A2.10	</item>
+                <item>	Me307	,	Wednesday	,	15:00	,	AL	,	Plc	</item>
+                <item>	Mt211.1	,	Thursday	,	15:00	,	ZY	,	Lr1	</item>
+                <item>	Ps112.2	,	Thursday	,	15:00	,	KT	,	Lr3	</item>
+                <item>	Eng204.2	,	Thursday	,	15:00	,	ST	,	Tp101	</item>
+                <item>	Eng201.4	,	Thursday	,	15:00	,	SK	,	Tp102	</item>
+                <item>	Een477	,	Thursday	,	15:00	,	CO	,	Tp202	</item>
+                <item>	Cven403	,	Thursday	,	15:00	,	MB	,	Tp203	</item>
+                <item>	Ene417	,	Thursday	,	15:00	,	KB	,	Tp204	</item>
+                <item>	Ae203	,	Thursday	,	15:00	,	MO	,	A2.10	</item>
+                <item>	Eng103.5	,	Thursday	,	15:00	,	OD	,	ITDEL	</item>
+                <item>	Eng103.3	,	Thursday	,	15:00	,	AI	,	Tp.lab	</item>
+                <item>	Muh103	,	Thursday	,	15:00	,	SP	,	C.Lab	</item>
+                <item>	Ie401	,	Thursday	,	15:00	,	BT	,	Ergo.l	</item>
+                <item>	Elm301	,	Thursday	,	15:00	,		,	Lab	</item>
+                <item>	Me203	,	Thursday	,	15:00	,		,		</item>
+                <item>	Ie402	,	Thursday	,	15:00	,	ZA	,		</item>
+                <item>	Een301.L2	,	Thursday	,	15:00	,	AZ	,	E.lab	</item>
+                <item>	Mt211.2	,	Friday	,	15:00	,	ZY	,	Lr1	</item>
+                <item>	Mt104.2	,	Friday	,	15:00	,	SS	,	Lr3	</item>
+                <item>	Eng203.1	,	Friday	,	15:00	,	NL	,	Tp101	</item>
+                <item>	Cven201.2	,	Friday	,	15:00	,	MB	,	Tp102	</item>
+                <item>	Cen499	,	Friday	,	15:00	,	AZ	,	Tp201	</item>
+                <item>	Acct101	,	Friday	,	15:00	,	SP	,	Tp203	</item>
+                <item>	Mtm207	,	Friday	,	15:00	,	HA	,	Tp204	</item>
+                <item>	Een403	,	Friday	,	15:00	,	BB	,	ITDEL	</item>
+                <item>	Ae205.2	,	Friday	,	15:00	,		,		</item>
+                <item>	Elm305	,	Friday	,	15:00	,	KT	,	E.lab	</item>
+                <item>	Me205.2	,	Friday	,	15:00	,		,		</item>
+                <item>	Ps111.1	,	Monday	,	16:00	,	SP	,	Lr1	</item>
+                <item>	Mt211.1	,	Monday	,	16:00	,	ZY	,	Lr3	</item>
+                <item>	Eng204.1	,	Monday	,	16:00	,	ST	,	Tp101	</item>
+                <item>	Cven304	,	Monday	,	16:00	,	KO	,	Tp102	</item>
+                <item>	Muh102	,	Monday	,	16:00	,	NL	,	Tp202	</item>
+                <item>	Elm305	,	Monday	,	16:00	,	KT	,	Tp203	</item>
+                <item>	Cen303	,	Monday	,	16:00	,	AH	,	Tp204	</item>
+                <item>	Csn4x1	,	Monday	,	16:00	,	PA	,	A2.10	</item>
+                <item>	Eng103.2	,	Monday	,	16:00	,	AI	,	ITDEL	</item>
+                <item>	Ene403	,	Monday	,	16:00	,	SS	,	Tp.lab	</item>
+                <item>	Een417	,	Monday	,	16:00	,	AZ	,	PLC	</item>
+                <item>	Ch101.1	,	Tuesday	,	16:00	,	MO	,	Lr1	</item>
+                <item>	Eng203.2	,	Tuesday	,	16:00	,	PA	,	Lr3	</item>
+                <item>	Mt211.3	,	Tuesday	,	16:00	,	S2	,	Tp101	</item>
+                <item>	Cven301	,	Tuesday	,	16:00	,	SS	,	Tp102	</item>
+                <item>	Ie445	,	Tuesday	,	16:00	,	ST	,	Tp201	</item>
+                <item>	Elm347	,	Tuesday	,	16:00	,	CO	,	Tp202	</item>
+                <item>	Cven464	,	Tuesday	,	16:00	,	MA	,	Tp204	</item>
+                <item>	Me305	,	Tuesday	,	16:00	,	KB	,	A2.10	</item>
+                <item>	Cen305	,	Tuesday	,	16:00	,	TT	,	ITDEL	</item>
+                <item>	Ene405	,	Tuesday	,	16:00	,		,	Tp.lab	</item>
+                <item>	Een307	,	Tuesday	,	16:00	,	BB	,	C.lab	</item>
+                <item>	Me206	,	Tuesday	,	16:00	,		,		</item>
+                <item>	Mt104.1	,	Wednesday	,	16:00	,	SS	,	Lr1	</item>
+                <item>	Eng101.2	,	Wednesday	,	16:00	,	HA	,	Tp101	</item>
+                <item>	Ie307	,	Wednesday	,	16:00	,	ST	,	Tp201	</item>
+                <item>	Fiz111	,	Wednesday	,	16:00	,	KT	,	Tp202	</item>
+                <item>	Cen420	,	Wednesday	,	16:00	,	NL	,	Tp203	</item>
+                <item>	Een484	,	Wednesday	,	16:00	,	IE	,	Tp204	</item>
+                <item>	Cven401	,	Wednesday	,	16:00	,	MB	,	A2.10	</item>
+                <item>	Me307	,	Wednesday	,	16:00	,	AL	,	Plc	</item>
+                <item>	Eng204.2	,	Thursday	,	16:00	,	ST	,	Tp101	</item>
+                <item>	Een477	,	Thursday	,	16:00	,	CO	,	Tp202	</item>
+                <item>	Cven403	,	Thursday	,	16:00	,	MB	,	Tp203	</item>
+                <item>	Ene417	,	Thursday	,	16:00	,	KB	,	Tp204	</item>
+                <item>	Me203	,	Thursday	,	16:00	,	MO	,	A2.10	</item>
+                <item>	Eng103.4	,	Thursday	,	16:00	,	AI	,	TP.Lab	</item>
+                <item>	Muh103	,	Thursday	,	16:00	,	SP	,	C.Lab	</item>
+                <item>	Elm301	,	Thursday	,	16:00	,		,		</item>
+                <item>	Ae203	,	Thursday	,	16:00	,		,		</item>
+                <item>	Ie401	,	Thursday	,	16:00	,	BT	,	Ergo.l	</item>
+                <item>	Ie402	,	Thursday	,	16:00	,	ZA	,		</item>
+                <item>	Mt211.2	,	Friday	,	16:00	,	ZY	,	Lr1	</item>
+                <item>	Mt104.2	,	Friday	,	16:00	,	SS	,	Lr3	</item>
+                <item>	Eng203.1	,	Friday	,	16:00	,	NL	,	Tp101	</item>
+                <item>	Cven201.2	,	Friday	,	16:00	,	MB	,	Tp102	</item>
+                <item>	Cen499	,	Friday	,	16:00	,	AZ	,	Tp201	</item>
+                <item>	Acct101	,	Friday	,	16:00	,	SP	,	Tp203	</item>
+                <item>	Mtm207	,	Friday	,	16:00	,	HA	,	Tp204	</item>
+                <item>	Een403	,	Friday	,	16:00	,	BB	,	ITDEL	</item>
+                <item>	Elm305	,	Friday	,	16:00	,	KT	,	E.lab	</item>
+                <item>	Ae205.2	,	Friday	,	16:00	,		,		</item>
+                <item>	Me205.2	,	Friday	,	16:00	,		,		</item>
+                <item>	Cven304	,	Monday	,	17:00	,	KO	,	Tp102	</item>
+                <item>	Cven301	,	Tuesday	,	17:00	,	SS	,	Tp102	</item>
+                <item>	Cven464	,	Tuesday	,	17:00	,	MA	,	Tp204	</item>
+                <item>	Cen305	,	Tuesday	,	17:00	,	TT	,	ITDEL	</item>
+                <item>	Me206	,	Tuesday	,	17:00	,		,		</item>
+                <item>	Cven401	,	Wednesday	,	17:00	,	MB	,	A2.10	</item>
+                <item>	Eng103.4	,	Thursday	,	17:00	,	AI	,	Tp.lab	</item>
+                <item>	Cven201.2	,	Friday	,	17:00	,	MB	,	Tp102	</item>
+                <item>	Ae205.2	,	Friday	,	17:00	,		,		</item>
+                <item>	Me205.2	,	Friday	,	17:00	,		,		</item>
+                <item>	Elit101	,	Wednesday	,	9:00	,	AM	,	A3.5	</item>
+                <item>	Elit103	,	Tuesday	,	9:00	,	SH	,	A1.6	</item>
+                <item>	Elit105	,	Thursday	,	12:00	,	SH	,	A1.6	</item>
+                <item>	Elit107	,	Monday	,	12:00	,	SH	,	A1.6	</item>
+                <item>	Elit113	,	Tuesday	,	12:00	,	-	,	F303	</item>
+                <item>	Bus103/Comp103	,		,		,	Online	,		</item>
+                <item>	Elit201	,	Monday	,	9:00	,	SH	,	A1.7	</item>
+                <item>	Elit203	,	Tuesday	,	9:00	,	AM	,	A3.5	</item>
+                <item>	Elit205	,	Tuesday	,	13:00	,	ES	,	A1.7	</item>
+                <item>	Elit207	,	Friday	,	9:00	,	AM	,	A3.5	</item>
+                <item>	Elit209	,	Monday	,	13:00	,	ES	,	A1.7	</item>
+                <item>	NH001	,		,		,	Online	,		</item>
+                <item>	NH002	,		,		,	Online	,		</item>
+                <item>	Elit301	,	Thursday	,	9:00	,	ES	,	A1.7	</item>
+                <item>	Elit303	,	Tuesday	,	9:00	,	SH	,	A1.7	</item>
+                <item>	Elit305	,	Wednesday	,	9:00	,	SH	,	A1.7	</item>
+                <item>	Elit307	,	Monday	,	12:00	,	RS	,	A3.5	</item>
+                <item>	Elit309	,	Friday	,	12:00	,	ES	,	A1.7	</item>
+                <item>	Elit401	,	Tuesday	,	13:00	,	AM	,	A3.5	</item>
+                <item>	Elit403	,	Thursday	,	14:00	,	ES	,	A1.7	</item>
+                <item>	Elit405	,	Friday	,	9:00	,	SH	,	A1.7	</item>
+                <item>	Elit407	,	Wednesday	,	12:00	,	ES	,	A1.7	</item>
+                <item>	PSY101	,	Tuesday	,	12:00	,	SI	,	A1.8	</item>
+                <item>	Psy102	,	Friday	,	12:00	,	SI	,	A1.3	</item>
+                <item>	Psy103	,	Wednesday	,	12:00	,	GN	,	A1.8	</item>
+                <item>	Phil101	,	Monday	,	12:00	,	AM	,	A3.1	</item>
+                <item>	Egl101	,	Wednesday	,	9:00	,	SH	,	A3.1	</item>
+                <item>	Egl102	,	Thursday	,	9:00	,	SH	,	A1.8	</item>
+                <item>	Comp103	,		,		,	Online	,		</item>
+                <item>	Turk001	,		,		,	Online	,		</item>
+                <item>	Turk002	,		,		,	Online	,		</item>
+                <item>	TFL101	,		,		,		,		</item>
+                <item>	Psy211	,	Friday	,	12:00	,	AA	,	A3.1	</item>
+                <item>	Psy213	,	Wednesday	,	14:00	,	AM	,	A3.1	</item>
+                <item>	Psy221	,	Wednesday	,	9:00	,	SI	,	A1.8	</item>
+                <item>	Psy251	,	Tuesday	,	12:00	,	EA	,	A3.1	</item>
+                <item>	Cs201	,	Thursday	,	12:00	,	AM	,	A3.1	</item>
+                <item>	NH001	,		,		,	Online	,		</item>
+                <item>	NH002	,		,		,	Online	,		</item>
+                <item>	Psy301	,	Tuesday	,	15:00	,	GN	,	A1.3	</item>
+                <item>	Psy321	,	Wednesday	,	9:00	,	AA	,	A1.3	</item>
+                <item>	Psy331	,	Thursday	,	9:00	,	AA	,	A3.1	</item>
+                <item>	Psy337	,	Monday	,	15:00	,	EA	,	A1.8	</item>
+                <item>	Psy341	,	Wednesday	,	15:00	,	EA	,	A1.8	</item>
+                <item>	Psy361	,	Thursday	,	15:00	,	AA	,	A1.3	</item>
+                <item>	Psy401	,	Wednesday	,	9:00	,	CA	,	Office	</item>
+                <item>	Psy402	,	Wednesday	,	15:00	,	CA	,	Office	</item>
+                <item>	Psy451	,	Tuesday	,	15:00	,	AS	,	A1.8	</item>
+                <item>	Psy477	,	Monday	,	12:00	,	GN	,	A1.8	</item>
+                <item>	Psy470	,	Friday	,	15:00	,	EA	,	A1.8	</item>
+                <item>	Psy471	,	Monday	,	15:00	,	AS	,	A1.3	</item>
+                <item>	Psy499	,	Wednesday	,	9:00	,	CA	,	Office	</item>
+                <item>	Tpsy101	,	Pazartesi	,	9:00	,	RR	,	A3.1	</item>
+                <item>	Tpsy103	,	Sali	,	9:00	,	SI	,	A1.8	</item>
+                <item>	Tphil101	,	Carsamba	,	12:00	,	RR	,	A1.3	</item>
+                <item>	Efl101	,	Cuma	,	9:00	,	SH	,	A3.1	</item>
+                <item>	Bil103	,		,		,	Online	,		</item>
+                <item>	Turk100	,		,		,	Online	,		</item>
+                <item>	Tpsy211	,	Cuma	,	9:00	,	AA	,	A1.8	</item>
+                <item>	Tpsy213	,	Sali	,	9:00	,	RR	,	A1.3	</item>
+                <item>	Tpsy221	,	Persembe	,	9:00	,	RR	,	A1.3	</item>
+                <item>	Tpsy251	,	Cuma	,	12:00	,	RR	,	A1.8	</item>
+                <item>	Cs201	,	Pazartesi	,	12:00	,	SI	,	A1.3	</item>
+                <item>	Tark100	,		,		,	Online	,		</item>
+                <item>	CLA	,	Monday	,	9:00	,	GY	,	A2.7	</item>
+                <item>	CLL101	,	Monday	,	14:00	,	SS	,	A2.7	</item>
+                <item>	CLL103	,	Thursday	,	14:00	,	GY	,	A2.7	</item>
+                <item>	CLL105	,	Tuesday	,	14:00	,	DC	,	A2.8	</item>
+                <item>	CLL107	,	Wednesday	,	14:00	,	SS	,	A2.7	</item>
+                <item>	Comp103	,		,		,	Online	,		</item>
+                <item>	EGL101	,	Wednesday	,	9:00	,	SH	,	A3.1	</item>
+                <item>	CLL201	,	Monday	,	14:00	,	DC	,	A2.8	</item>
+                <item>	CL202	,	Wednesday	,	15:00	,	DC	,	Office	</item>
+                <item>	CLL203	,	Wednesday	,	9:00	,	SS	,	A2.6	</item>
+                <item>	CLL205	,	Tuesday	,	9:00	,	DC	,	A2.8	</item>
+                <item>	CLL206	,	Wednesday	,	14:00	,	DC	,	Office	</item>
+                <item>	CLL207	,	Friday	,	14:00	,	GY	,	A2.8	</item>
+                <item>	CLL213	,	Thursday	,	9:00	,	GY	,	A2.7	</item>
+                <item>	CLL215	,	Thursday	,	14:00	,	SS	,	A2.6	</item>
+                <item>	TURK001	,		,		,	Online	,		</item>
+                <item>	NH001	,		,		,	Online	,		</item>
+                <item>	CLL301	,	Wednesday	,	9:00	,	DC	,	A2.8	</item>
+                <item>	CLL303	,	Monday	,	9:00	,	SS	,	A2.6	</item>
+                <item>	CLL305	,	Tuesday	,	14:00	,	GY	,	A2.7	</item>
+                <item>	CLL307	,	Friday	,	14:00	,	SS	,	A2.7	</item>
+                <item>	CLL309	,	Thursday	,	9:00	,	SS	,	A2.6	</item>
+                <item>	CLL401	,	Thursday	,	14:00	,	DC	,	A2.8	</item>
+                <item>	CLL403	,	Friday	,	9:00	,	SS	,	A2.7	</item>
+                <item>	CLL405	,	Tuesday	,	9:00	,	SS	,	A2.6	</item>
+                <item>	CLL407	,	Wednesday	,	14:00	,	GY	,	A2.8	</item>
+                <item>	CLL409	,	Monday	,	9:00	,	DC	,	A2.8	</item>
+                <item>	PUB403	,	Monday	,	12:00	,	MK	,	TP103	</item>
+                <item>	IRE411	,	Monday	,	12:00	,	ENG	,	A1.9	</item>
+                <item>	PPOLS306	,	Monday	,	12:00	,	CB	,	TP207	</item>
+                <item>	IRE301	,	Monday	,	15:00	,	EO	,	TP103	</item>
+                <item>	POLS303	,	Monday	,	15:00	,	MK	,	TP207	</item>
+                <item>	IRE423	,	Monday	,	15:00	,	SA	,	A1.9	</item>
+                <item>	TIRE528	,	Monday	,	18:00	,	ENG	,	TP206	</item>
+                <item>	MGMT500.2	,	Monday	,	18:00	,	CB	,	TP207	</item>
+                <item>	PINS600	,	Monday	,	18:00	,	CB	,	TP207	</item>
+                <item>	IRE201	,	Tuesday	,	9:00	,	CB	,	TP103	</item>
+                <item>	POLS409	,	Tuesday	,	9:00	,	HS	,	TP207	</item>
+                <item>	POLS303	,	Tuesday	,	9:00	,	MK	,	A1.9	</item>
+                <item>	POLS412	,	Tuesday	,	12:00	,	CB	,	TP103	</item>
+                <item>	PUB403	,	Tuesday	,	12:00	,	MK	,	A1.9	</item>
+                <item>	IRE405	,	Tuesday	,	12:00	,	ENG	,	TP207	</item>
+                <item>	IRE420	,	Tuesday	,	15:00	,	ENG	,	TP207	</item>
+                <item>	PUB203	,	Tuesday	,	15:00	,	EG	,	TP103	</item>
+                <item>	IRE427	,	Tuesday	,	15:00	,	SA	,	A1.9	</item>
+                <item>	PINS601	,	Tuesday	,	18:00	,	UK	,	TP206	</item>
+                <item>	MIRP541	,	Tuesday	,	18:00	,	AT	,	TP103	</item>
+                <item>	TIRE511	,	Tuesday	,	18:00	,	EO	,	TP207	</item>
+                <item>	POLS414	,	Wednesday	,	9:00	,	HS	,	A1.9	</item>
+                <item>	IRE403	,	Wednesday	,	9:00	,	ENG	,	TP103	</item>
+                <item>	IRE333	,	Wednesday	,	9:00	,	SA	,	TP207	</item>
+                <item>	IRE102	,	Wednesday	,	12:00	,	HS	,	TP103	</item>
+                <item>	POLS401	,	Wednesday	,	12:00	,	CB	,	TP207	</item>
+                <item>	IRE412	,	Wednesday	,	12:00	,	EO	,	A1.9	</item>
+                <item>	MIRP514	,	Wednesday	,	18:00	,	EO	,	TP206	</item>
+                <item>	TIRE524	,	Wednesday	,	18:00	,	UK	,	TP207	</item>
+                <item>	POLS101	,	Thursday	,	9:00	,	EO	,	TP103	</item>
+                <item>	IRE317	,	Thursday	,	9:00	,	HS	,	TP207	</item>
+                <item>	POLS307	,	Thursday	,	12:00	,	HS	,	TP207	</item>
+                <item>	IRE305	,	Thursday	,	15:00	,	SA	,	TP103	</item>
+                <item>	POLS309	,	Thursday	,	15:00	,	AT	,	TP207	</item>
+                <item>	IRE316	,	Thursday	,	15:00	,	EO	,	A1.9	</item>
+                <item>	MIRP501	,	Thursday	,	18:00	,	SA	,	TP207	</item>
+                <item>	IRE417	,	Friday	,	9:00	,	HS	,	TP207	</item>
+                <item>	POLS301	,	Friday	,	9:00	,	HU	,	A1.9	</item>
+                <item>	POLS407	,	Friday	,	9:00	,	SA	,	TP103	</item>
+                <item>	POLS301	,	Friday	,	12:00	,	HU	,	A1.9	</item>
+                <item>	IRE309	,	Friday	,	15:00	,	EG	,	TP103	</item>
+                <item>	PINS605	,	Saturday	,	9:00	,	HU	,	TP207	</item>
+                <item>	PINS605	,	Saturday	,	12:00	,	HU	,	TP207	</item>
+                <item>	THM221	,	Monday	,	9:00	,	DT	,	ML101	</item>
+                <item>	GAS205	,	Monday	,	9:00	,	SB	,	KTCHN	</item>
+                <item>	THM221	,	Monday	,	10:00	,	DT	,	ML101	</item>
+                <item>	GAS205	,	Monday	,	10:00	,	SB	,	KTCHN	</item>
+                <item>	THM221	,	Monday	,	11:00	,	DT	,	ML101	</item>
+                <item>	GAS205	,	Monday	,	11:00	,	SB	,	KTCHN	</item>
+                <item>	GAS309	,	Monday	,	12:00	,	MS	,	ML101	</item>
+                <item>	THM223	,	Monday	,	12:00	,	HB	,	M212	</item>
+                <item>	GAS309	,	Monday	,	13:00	,	MS	,	ML101	</item>
+                <item>	THM223	,	Monday	,	13:00	,	HB	,	M212	</item>
+                <item>	GAS309	,	Monday	,	14:00	,	MS	,	ML101	</item>
+                <item>	THM223	,	Monday	,	14:00	,	HB	,	M212	</item>
+                <item>	THM113	,	Monday	,	15:00	,	MG	,	M212	</item>
+                <item>	THM445	,	Monday	,	15:00	,	AA	,	ML101	</item>
+                <item>	THM113	,	Monday	,	16:00	,	MG	,	M212	</item>
+                <item>	THM445	,	Monday	,	16:00	,	AA	,	ML101	</item>
+                <item>	THM113	,	Monday	,	17:00	,	MG	,	M212	</item>
+                <item>	THM445	,	Monday	,	17:00	,	AA	,	ML101	</item>
+                <item>	THM603	,	Monday	,	18:00	,	AA	,	ML101	</item>
+                <item>	THM517	,	Monday	,	18:00	,	HB	,	M212	</item>
+                <item>	THM603	,	Monday	,	17:00	,	AA	,	ML101	</item>
+                <item>	THM517	,	Monday	,	17:00	,	HB	,	M212	</item>
+                <item>	THM511	,	Tuesday	,	9:00	,	AA	,	ML101	</item>
+                <item>	GAS307	,	Tuesday	,	9:00	,	AO	,	KTCHN	</item>
+                <item>	THM339	,	Tuesday	,	9:00	,	TE	,	M212	</item>
+                <item>	THM511	,	Tuesday	,	10:00	,	AA	,	ML101	</item>
+                <item>	GAS307	,	Tuesday	,	10:00	,	AO	,	KTCHN	</item>
+                <item>	THM339	,	Tuesday	,	10:00	,	TE	,	M212	</item>
+                <item>	THM511	,	Tuesday	,	11:00	,	AA	,	ML101	</item>
+                <item>	GAS307	,	Tuesday	,	11:00	,	AO	,	KTCHN	</item>
+                <item>	THM339	,	Tuesday	,	11:00	,	TE	,	M212	</item>
+                <item>	GAS203	,	Tuesday	,	12:00	,	MS	,	ML101	</item>
+                <item>	GAS105	,	Tuesday	,	12:00	,	AT	,	M212	</item>
+                <item>	GAS203	,	Tuesday	,	13:00	,	MS	,	ML101	</item>
+                <item>	GAS105	,	Tuesday	,	13:00	,	AT	,	M212	</item>
+                <item>	GAS203	,	Tuesday	,	14:00	,	MS	,	ML101	</item>
+                <item>	GAS105	,	Tuesday	,	14:00	,	AT	,	M212	</item>
+                <item>	GAS305	,	Tuesday	,	15:00	,	AT	,	KTCHN	</item>
+                <item>	THM425	,	Tuesday	,	15:00	,	MS	,	ML101	</item>
+                <item>	GAS305	,	Tuesday	,	16:00	,	AT	,	KTCHN	</item>
+                <item>	THM425	,	Tuesday	,	16:00	,	MS	,	ML101	</item>
+                <item>	GAS305	,	Tuesday	,	17:00	,	AT	,	KTCHN	</item>
+                <item>	THM425	,	Tuesday	,	17:00	,	MS	,	ML101	</item>
+                <item>	THM510-530	,	Tuesday	,	18:00	,	LE	,	ML101	</item>
+                <item>	THM450-408	,	Tuesday	,	18:00	,	LE	,	ML101	</item>
+                <item>	THM510-530	,	Tuesday	,	17:00	,	LE	,	ML101	</item>
+                <item>	THM450-408	,	Tuesday	,	17:00	,	LE	,	ML101	</item>
+                <item>	GAS103	,	Wednesday	,	9:00	,	MS	,	ML101	</item>
+                <item>	GAS403	,	Wednesday	,	9:00	,	SB	,	KTCHN	</item>
+                <item>	THM335	,	Wednesday	,	9:00	,	DT	,	M212	</item>
+                <item>	GAS103	,	Wednesday	,	10:00	,	MS	,	ML101	</item>
+                <item>	GAS403	,	Wednesday	,	10:00	,	SB	,	KTCHN	</item>
+                <item>	THM335	,	Wednesday	,	10:00	,	DT	,	M212	</item>
+                <item>	GAS103	,	Wednesday	,	11:00	,	MS	,	ML101	</item>
+                <item>	GAS403	,	Wednesday	,	11:00	,	SB	,	KTCHN	</item>
+                <item>	THM335	,	Wednesday	,	11:00	,	DT	,	M212	</item>
+                <item>	GAS303	,	Wednesday	,	12:00	,	AO	,	KTCHN	</item>
+                <item>	THM213	,	Wednesday	,	12:00	,	TE	,	ML101	</item>
+                <item>	GAS303	,	Wednesday	,	13:00	,	AO	,	KTCHN	</item>
+                <item>	THM213	,	Wednesday	,	13:00	,	TE	,	ML101	</item>
+                <item>	GAS303	,	Wednesday	,	14:00	,	AO	,	KTCHN	</item>
+                <item>	THM213	,	Wednesday	,	14:00	,	TE	,	ML101	</item>
+                <item>	GAS201	,	Wednesday	,	15:00	,	MM	,	KTCHN	</item>
+                <item>	THM101	,	Wednesday	,	15:00	,	DT	,	ML101	</item>
+                <item>	GAS201	,	Wednesday	,	16:00	,	MM	,	M212	</item>
+                <item>	THM101	,	Wednesday	,	16:00	,	DT	,	ML101	</item>
+                <item>	GAS201	,	Wednesday	,	17:00	,	MM	,	M212	</item>
+                <item>	THM101	,	Wednesday	,	17:00	,	DT	,	ML101	</item>
+                <item>	THM513	,	Wednesday	,	18:00	,	MY	,	M212	</item>
+                <item>	THM607	,	Wednesday	,	18:00	,	LE	,	ML101	</item>
+                <item>	THM513	,	Wednesday	,	17:00	,	MY	,	M212	</item>
+                <item>	THM607	,	Wednesday	,	17:00	,	LE	,	ML101	</item>
+                <item>	GAS405	,	Thursday	,	9:00	,	AU	,	KTCHN	</item>
+                <item>	THM225	,	Thursday	,	9:00	,	DT	,	ML101	</item>
+                <item>	GAS405	,	Thursday	,	10:00	,	AO	,	KTCHN	</item>
+                <item>	THM225	,	Thursday	,	10:00	,	DT	,	ML101	</item>
+                <item>	GAS405	,	Thursday	,	11:00	,	AO	,	KTCHN	</item>
+                <item>	THM225	,	Thursday	,	11:00	,	DT	,	ML101	</item>
+                <item>	GAS109	,	Thursday	,	12:00	,	MS	,	ML101	</item>
+                <item>	THM447	,	Thursday	,	12:00	,	TE	,	M212	</item>
+                <item>	GAS109	,	Thursday	,	13:00	,	MS	,	ML101	</item>
+                <item>	THM447	,	Thursday	,	13:00	,	TE	,	M212	</item>
+                <item>	GAS109	,	Thursday	,	14:00	,	MS	,	ML101	</item>
+                <item>	THM447	,	Thursday	,	14:00	,	TE	,	M212	</item>
+                <item>	GAS407	,	Thursday	,	15:00	,	AT	,	ML101	</item>
+                <item>	THM337	,	Thursday	,	15:00	,	HB	,	M212	</item>
+                <item>	GAS407	,	Thursday	,	16:00	,	AT	,	ML101	</item>
+                <item>	THM337	,	Thursday	,	16:00	,	HB	,	M212	</item>
+                <item>	GAS407	,	Thursday	,	17:00	,	AT	,	ML101	</item>
+                <item>	THM337	,	Thursday	,	17:00	,	HB	,	M212	</item>
+                <item>	GAS207	,	Friday	,	9:00	,				</item>
+                <item>	THM331	,	Friday	,	9:00	,				</item>
+                <item>	THM115	,	Friday	,	9:00	,				</item>
+                <item>	GAS207	,	Friday	,	10:00	,				</item>
+                <item>	THM331	,	Friday	,	10:00	,				</item>
+                <item>	THM115	,	Friday	,	10:00	,				</item>
+                <item>	GAS207	,	Friday	,	11:00	,				</item>
+                <item>	THM331	,	Friday	,	11:00	,				</item>
+                <item>	THM115	,	Friday	,	11:00	,				</item>
+                <item>	GAS401	,	Friday	,	12:00	,				</item>
+                <item>	THM229	,	Friday	,	12:00	,				</item>
+                <item>	GAS401	,	Friday	,	13:00	,				</item>
+                <item>	THM229	,	Friday	,	13:00	,				</item>
+                <item>	GAS401	,	Friday	,	14:00	,				</item>
+                <item>	THM229	,	Friday	,	14:00	,				</item>
+                <item>	GAS301	,	Friday	,	15:00	,				</item>
+                <item>	THM117	,	Friday	,	15:00	,				</item>
+                <item>	GAS301	,	Friday	,	16:00	,				</item>
+                <item>	THM117	,	Friday	,	16:00	,				</item>
+                <item>	GAS301	,	Friday	,	17:00	,				</item>
+                <item>	THM117	,	Friday	,	17:00	,				</item>
+
+
+            </string-array>
+
+
+
+
+
+    <string-array name="Busses">
+        <item>NEW HARBOUR - NICOSIA ROUNDABOUT - FREEWAY - GAU</item>
+        <item>GAU - FREEWAY - NICOSIA ROUNDABOUT - NEW HARBOUR</item>
+        <item>NICOSIA ROUNDABOUT - GAU TRAFFIC LIGHTS - GAU</item>
+        <item>GAU - GAU TRAFFIC LIGHTS - NICOSIA ROUNDABOUT</item>
+        <item>KNOWLEDGE VILLAGE - GAU</item>
+        <item>GAU - KNOWLEDGE VILLAGE</item>
+        <item>UNIVERSITY COMPLEX - GAU</item>
+        <item>GAU - UNIVERSITY COMPLEX</item>
+        <item>GORDON BENNETT - GAU</item>
+        <item>GAU - GORDON BENNETT</item>
+        <item>NICOSIA - GAU</item>
+        <item>GAU - NICOSIA</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY AND PUBLIC HOLIDAYS</item>
+
+    </string-array>
+
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU">
+        <item>City Center</item>
+        <item>City Complex</item>
+        <item>Harbour Market</item>
+        <item>Manipeni</item>
+        <item>Nicosia Auto Gallery</item>
+        <item>Nicosia Roundabout</item>
+        <item>GAU</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__City_Center">
+        <item>7:35</item>
+        <item>8:15</item>
+        <item>9:15</item>
+        <item>10:00</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>12:45</item>
+        <item>13:15</item>
+        <item>13:45</item>
+        <item>14:15</item>
+        <item>15:30</item>
+        <item>16:30</item>
+        <item>17:30</item>
+        <item>18:30</item>
+        <item>19:30</item>
+        <item>20:30</item>
+        <item>21:30</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__City_Complex">
+        <item>7:37</item>
+        <item>8:17</item>
+        <item>9:17</item>
+        <item>10:02</item>
+        <item>10:47</item>
+        <item>11:17</item>
+        <item>11:47</item>
+        <item>12:17</item>
+        <item>12:47</item>
+        <item>13:17</item>
+        <item>13:47</item>
+        <item>14:17</item>
+        <item>15:32</item>
+        <item>16:32</item>
+        <item>17:32</item>
+        <item>18:32</item>
+        <item>19:32</item>
+        <item>20:32</item>
+        <item>21:32</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__Harbour_Market">
+        <item>7:39</item>
+        <item>8:19</item>
+        <item>9:19</item>
+        <item>10:04</item>
+        <item>10:49</item>
+        <item>11:19</item>
+        <item>11:49</item>
+        <item>12:19</item>
+        <item>12:49</item>
+        <item>13:19</item>
+        <item>13:49</item>
+        <item>14:19</item>
+        <item>15:34</item>
+        <item>16:34</item>
+        <item>17:34</item>
+        <item>18:34</item>
+        <item>19:34</item>
+        <item>20:34</item>
+        <item>21:34</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__Manipeni">
+        <item>7:41</item>
+        <item>8:21</item>
+        <item>9:21</item>
+        <item>10:06</item>
+        <item>10:51</item>
+        <item>11:21</item>
+        <item>11:51</item>
+        <item>12:21</item>
+        <item>12:51</item>
+        <item>13:21</item>
+        <item>13:51</item>
+        <item>14:21</item>
+        <item>15:36</item>
+        <item>16:36</item>
+        <item>17:36</item>
+        <item>18:36</item>
+        <item>19:36</item>
+        <item>20:36</item>
+        <item>21:36</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__Nicosia_Auto_Gallery">
+        <item>7:44</item>
+        <item>8:34</item>
+        <item>9:24</item>
+        <item>10:09</item>
+        <item>10:54</item>
+        <item>11:24</item>
+        <item>11:54</item>
+        <item>12:24</item>
+        <item>12:54</item>
+        <item>13:24</item>
+        <item>13:54</item>
+        <item>14:24</item>
+        <item>14:40</item>
+        <item>16:40</item>
+        <item>17:40</item>
+        <item>18:40</item>
+        <item>19:40</item>
+        <item>20:40</item>
+        <item>21:40</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__Nicosia_Roundabout">
+        <item>7:46</item>
+        <item>8:36</item>
+        <item>9:26</item>
+        <item>10:11</item>
+        <item>10:56</item>
+        <item>11:26</item>
+        <item>11:56</item>
+        <item>12:26</item>
+        <item>12:56</item>
+        <item>13:26</item>
+        <item>13:56</item>
+        <item>14:26</item>
+        <item>14:42</item>
+        <item>16:42</item>
+        <item>17:42</item>
+        <item>18:42</item>
+        <item>19:42</item>
+        <item>20:42</item>
+        <item>21:42</item>
+    </string-array>
+    <string-array name="NEW_HARBOUR___NICOSIA_ROUNDABOUT___FREEWAY___GAU__GAU">
+        <item>7:55</item>
+        <item>8:45</item>
+        <item>9:35</item>
+        <item>10:20</item>
+        <item>11:10</item>
+        <item>11:35</item>
+        <item>12:10</item>
+        <item>12:35</item>
+        <item>13:10</item>
+        <item>13:35</item>
+        <item>14:10</item>
+        <item>14:35</item>
+        <item>14:55</item>
+        <item>16:55</item>
+        <item>17:55</item>
+        <item>18:55</item>
+        <item>19:55</item>
+        <item>20:55</item>
+        <item>21:55</item>
+    </string-array>
+
+
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR">
+        <item>GAU</item>
+        <item>Nicosia Roundabout</item>
+        <item>Nicosia Auto Gallery</item>
+        <item>Manipeni</item>
+        <item>Harbour Market</item>
+        <item>City Complex</item>
+        <item>City Center</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__GAU">
+        <item>9:45</item>
+        <item>10:15</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>14:15</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__Nicosia_Roundabout">
+        <item>9:55</item>
+        <item>10:25</item>
+        <item>10:55</item>
+        <item>11:25</item>
+        <item>11:55</item>
+        <item>12:25</item>
+        <item>14:25</item>
+        <item>15:10</item>
+        <item>16:10</item>
+        <item>17:10</item>
+        <item>18:10</item>
+        <item>19:10</item>
+        <item>20:10</item>
+        <item>21:10</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__Nicosia_Auto_Gallery">
+        <item>9:57</item>
+        <item>10:27</item>
+        <item>10:57</item>
+        <item>11:27</item>
+        <item>11:57</item>
+        <item>12:27</item>
+        <item>14:37</item>
+        <item>15:12</item>
+        <item>16:12</item>
+        <item>17:12</item>
+        <item>18:12</item>
+        <item>19:12</item>
+        <item>20:12</item>
+        <item>21:12</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__Manipeni">
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>14:40</item>
+        <item>15:15</item>
+        <item>16:15</item>
+        <item>17:15</item>
+        <item>18:15</item>
+        <item>19:15</item>
+        <item>20:15</item>
+        <item>21:15</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__Harbour_Market">
+        <item>10:02</item>
+        <item>10:32</item>
+        <item>11:02</item>
+        <item>11:32</item>
+        <item>12:02</item>
+        <item>12:32</item>
+        <item>14:42</item>
+        <item>15:17</item>
+        <item>16:17</item>
+        <item>17:17</item>
+        <item>18:17</item>
+        <item>19:17</item>
+        <item>20:17</item>
+        <item>21:17</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__City_Complex">
+        <item>10:05</item>
+        <item>10:35</item>
+        <item>11:05</item>
+        <item>11:35</item>
+        <item>12:05</item>
+        <item>12:35</item>
+        <item>14:45</item>
+        <item>15:20</item>
+        <item>16:20</item>
+        <item>17:20</item>
+        <item>18:20</item>
+        <item>19:20</item>
+        <item>20:20</item>
+        <item>21:20</item>
+    </string-array>
+    <string-array name="GAU___FREEWAY___NICOSIA_ROUNDABOUT___NEW_HARBOUR__City_Center">
+        <item>10:10</item>
+        <item>10:40</item>
+        <item>11:10</item>
+        <item>11:40</item>
+        <item>12:10</item>
+        <item>12:40</item>
+        <item>14:50</item>
+        <item>15:25</item>
+        <item>16:25</item>
+        <item>17:25</item>
+        <item>18:25</item>
+        <item>19:25</item>
+        <item>20:25</item>
+        <item>21:25</item>
+    </string-array>
+
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU">
+        <item>Turkcell</item>
+        <item>Baris Park</item>
+        <item>Simit Sarayi</item>
+        <item>Akpinar</item>
+        <item>Gloria Jeans</item>
+        <item>Gallery</item>
+        <item>Limonluk</item>
+        <item>Gau Traffic Lights</item>
+        <item>Accounting</item>
+        <item>City Center</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Turkcell">
+        <item>8:15</item>
+        <item>8:20</item>
+        <item>9:20</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:30</item>
+        <item>16:30</item>
+        <item>17:30</item>
+        <item>18:30</item>
+        <item>19:30</item>
+        <item>20:30</item>
+        <item>21:30</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Baris_Park">
+        <item>8:17</item>
+        <item>8:22</item>
+        <item>9:22</item>
+        <item>10:02</item>
+        <item>10:32</item>
+        <item>11:02</item>
+        <item>11:32</item>
+        <item>12:02</item>
+        <item>12:32</item>
+        <item>13:02</item>
+        <item>13:32</item>
+        <item>14:02</item>
+        <item>14:32</item>
+        <item>15:32</item>
+        <item>16:32</item>
+        <item>17:32</item>
+        <item>18:32</item>
+        <item>19:32</item>
+        <item>20:32</item>
+        <item>21:32</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Simit_Sarayi">
+        <item>8:19</item>
+        <item>8:24</item>
+        <item>9:24</item>
+        <item>10:04</item>
+        <item>10:34</item>
+        <item>11:04</item>
+        <item>11:34</item>
+        <item>12:04</item>
+        <item>12:34</item>
+        <item>13:04</item>
+        <item>13:34</item>
+        <item>14:04</item>
+        <item>14:34</item>
+        <item>15:34</item>
+        <item>16:34</item>
+        <item>17:34</item>
+        <item>18:34</item>
+        <item>19:34</item>
+        <item>20:34</item>
+        <item>21:34</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Akpinar">
+        <item>8:22</item>
+        <item>8:27</item>
+        <item>9:27</item>
+        <item>10:07</item>
+        <item>10:37</item>
+        <item>11:07</item>
+        <item>11:37</item>
+        <item>12:07</item>
+        <item>12:37</item>
+        <item>13:07</item>
+        <item>13:37</item>
+        <item>14:07</item>
+        <item>14:37</item>
+        <item>15:37</item>
+        <item>16:37</item>
+        <item>17:37</item>
+        <item>18:37</item>
+        <item>19:37</item>
+        <item>20:37</item>
+        <item>21:37</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Gloria_Jeans">
+        <item>8:24</item>
+        <item>8:29</item>
+        <item>9:29</item>
+        <item>10:09</item>
+        <item>10:39</item>
+        <item>11:09</item>
+        <item>11:39</item>
+        <item>12:09</item>
+        <item>12:39</item>
+        <item>13:09</item>
+        <item>13:39</item>
+        <item>14:09</item>
+        <item>14:39</item>
+        <item>15:39</item>
+        <item>16:39</item>
+        <item>17:39</item>
+        <item>18:39</item>
+        <item>19:39</item>
+        <item>20:39</item>
+        <item>21:39</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Gallery">
+        <item>8:26</item>
+        <item>8:31</item>
+        <item>9:31</item>
+        <item>10:11</item>
+        <item>10:41</item>
+        <item>11:11</item>
+        <item>11:41</item>
+        <item>12:11</item>
+        <item>12:41</item>
+        <item>13:11</item>
+        <item>13:41</item>
+        <item>14:11</item>
+        <item>14:41</item>
+        <item>15:41</item>
+        <item>16:41</item>
+        <item>17:41</item>
+        <item>18:41</item>
+        <item>19:41</item>
+        <item>20:41</item>
+        <item>21:41</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Limonluk">
+        <item>8:28</item>
+        <item>8:33</item>
+        <item>9:33</item>
+        <item>10:13</item>
+        <item>10:43</item>
+        <item>11:13</item>
+        <item>11:43</item>
+        <item>12:13</item>
+        <item>12:43</item>
+        <item>13:13</item>
+        <item>13:43</item>
+        <item>14:13</item>
+        <item>14:43</item>
+        <item>15:43</item>
+        <item>16:43</item>
+        <item>17:43</item>
+        <item>18:43</item>
+        <item>19:43</item>
+        <item>20:43</item>
+        <item>21:43</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Gau_Traffic_Lights">
+        <item>8:29</item>
+        <item>8:34</item>
+        <item>9:34</item>
+        <item>10:14</item>
+        <item>10:44</item>
+        <item>11:14</item>
+        <item>11:44</item>
+        <item>12:14</item>
+        <item>12:44</item>
+        <item>13:14</item>
+        <item>13:44</item>
+        <item>14:14</item>
+        <item>14:44</item>
+        <item>15:44</item>
+        <item>16:44</item>
+        <item>17:44</item>
+        <item>18:44</item>
+        <item>19:44</item>
+        <item>20:44</item>
+        <item>21:44</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__Accounting">
+        <item>8:30</item>
+        <item>8:35</item>
+        <item>9:35</item>
+        <item>10:15</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>12:45</item>
+        <item>13:15</item>
+        <item>13:45</item>
+        <item>14:15</item>
+        <item>14:45</item>
+        <item>15:45</item>
+        <item>16:45</item>
+        <item>17:45</item>
+        <item>18:45</item>
+        <item>19:45</item>
+        <item>20:45</item>
+        <item>21:45</item>
+    </string-array>
+    <string-array name="NICOSIA_ROUNDABOUT___GAU_TRAFFIC_LIGHTS___GAU__City_Center">
+        <item>8:35</item>
+        <item>8:40</item>
+        <item>9:40</item>
+        <item>10:20</item>
+        <item>10:50</item>
+        <item>11:20</item>
+        <item>11:50</item>
+        <item>12:20</item>
+        <item>12:50</item>
+        <item>13:20</item>
+        <item>13:50</item>
+        <item>14:20</item>
+        <item>14:50</item>
+        <item>15:50</item>
+        <item>16:50</item>
+        <item>17:50</item>
+        <item>18:50</item>
+        <item>19:50</item>
+        <item>20:50</item>
+        <item>21:50</item>
+    </string-array>
+
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT">
+        <item>City Center</item>
+        <item>Accounting</item>
+        <item>Gau Traffic Lights</item>
+        <item>Limonluk</item>
+        <item>Gallery</item>
+        <item>Gloria Jeans</item>
+        <item>Akpinar</item>
+        <item>Simit Sarayi</item>
+        <item>Baris Park</item>
+        <item>Turkcell</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__City_Center">
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Accounting">
+        <item>9:35</item>
+        <item>10:05</item>
+        <item>10:35</item>
+        <item>11:05</item>
+        <item>11:35</item>
+        <item>12:05</item>
+        <item>12:35</item>
+        <item>14:05</item>
+        <item>15:05</item>
+        <item>16:05</item>
+        <item>17:05</item>
+        <item>18:05</item>
+        <item>19:05</item>
+        <item>20:05</item>
+        <item>21:05</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Gau_Traffic_Lights">
+        <item>9:37</item>
+        <item>10:07</item>
+        <item>10:37</item>
+        <item>11:07</item>
+        <item>11:37</item>
+        <item>12:07</item>
+        <item>12:37</item>
+        <item>14:07</item>
+        <item>15:07</item>
+        <item>16:07</item>
+        <item>17:07</item>
+        <item>18:07</item>
+        <item>19:07</item>
+        <item>20:07</item>
+        <item>21:07</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Limonluk">
+        <item>9:40</item>
+        <item>10:10</item>
+        <item>10:40</item>
+        <item>11:10</item>
+        <item>11:40</item>
+        <item>12:10</item>
+        <item>12:40</item>
+        <item>14:10</item>
+        <item>15:10</item>
+        <item>16:10</item>
+        <item>17:10</item>
+        <item>18:10</item>
+        <item>19:10</item>
+        <item>20:10</item>
+        <item>21:10</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Gallery">
+        <item>9:42</item>
+        <item>10:12</item>
+        <item>10:42</item>
+        <item>11:12</item>
+        <item>11:42</item>
+        <item>12:12</item>
+        <item>12:42</item>
+        <item>14:12</item>
+        <item>15:12</item>
+        <item>16:12</item>
+        <item>17:12</item>
+        <item>18:12</item>
+        <item>19:12</item>
+        <item>20:12</item>
+        <item>21:12</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Gloria_Jeans">
+        <item>9:45</item>
+        <item>10:15</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>12:45</item>
+        <item>14:15</item>
+        <item>15:15</item>
+        <item>16:15</item>
+        <item>17:15</item>
+        <item>18:15</item>
+        <item>19:15</item>
+        <item>20:15</item>
+        <item>21:15</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Akpinar">
+    <item>9:47</item>
+    <item>10:17</item>
+    <item>10:47</item>
+    <item>11:17</item>
+    <item>11:47</item>
+    <item>12:17</item>
+    <item>12:47</item>
+    <item>14:17</item>
+    <item>15:17</item>
+    <item>16:17</item>
+    <item>17:17</item>
+    <item>18:17</item>
+    <item>19:17</item>
+    <item>20:17</item>
+    <item>21:17</item>
+</string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Simit_Sarayi">
+        <item>9:50</item>
+        <item>10:20</item>
+        <item>10:50</item>
+        <item>11:20</item>
+        <item>11:50</item>
+        <item>12:20</item>
+        <item>12:50</item>
+        <item>14:20</item>
+        <item>15:20</item>
+        <item>16:20</item>
+        <item>17:20</item>
+        <item>18:20</item>
+        <item>19:20</item>
+        <item>20:20</item>
+        <item>21:20</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Baris_Park">
+        <item>9:53</item>
+        <item>10:23</item>
+        <item>10:53</item>
+        <item>11:23</item>
+        <item>11:53</item>
+        <item>12:23</item>
+        <item>12:53</item>
+        <item>14:23</item>
+        <item>15:23</item>
+        <item>16:23</item>
+        <item>17:23</item>
+        <item>18:23</item>
+        <item>19:23</item>
+        <item>20:23</item>
+        <item>21:23</item>
+    </string-array>
+    <string-array name="GAU___GAU_TRAFFIC_LIGHTS___NICOSIA_ROUNDABOUT__Turkcell">
+        <item>9:55</item>
+        <item>10:25</item>
+        <item>10:55</item>
+        <item>11:25</item>
+        <item>11:55</item>
+        <item>12:25</item>
+        <item>12:55</item>
+        <item>14:25</item>
+        <item>15:25</item>
+        <item>16:25</item>
+        <item>17:25</item>
+        <item>18:25</item>
+        <item>19:25</item>
+        <item>20:25</item>
+        <item>21:25</item>
+    </string-array>
+
+    <string-array name="KNOWLEDGE_VILLAGE___GAU">
+        <item>Knowldege Village</item>
+        <item>GAU</item>
+    </string-array>
+    <string-array name="KNOWLEDGE_VILLAGE___GAU__Knowldege_Village">
+        <item>8:30</item>
+        <item>9:30</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>13:30</item>
+        <item>14:30</item>
+        <item>15:15</item>
+    </string-array>
+    <string-array name="KNOWLEDGE_VILLAGE___GAU__GAU">
+        <item>8:40</item>
+        <item>9:40</item>
+        <item>10:40</item>
+        <item>11:40</item>
+        <item>12:40</item>
+        <item>13:40</item>
+        <item>14:40</item>
+        <item>15:25</item>
+    </string-array>
+
+    <string-array name="GAU___KNOWLEDGE_VILLAGE">
+        <item>GAU</item>
+        <item>Knowledge Village</item>
+    </string-array>
+    <string-array name="GAU___KNOWLEDGE_VILLAGE__GAU">
+        <item>9:20</item>
+        <item>10:20</item>
+        <item>11:20</item>
+        <item>12:20</item>
+        <item>14:20</item>
+        <item>15:00</item>
+        <item>17:10</item>
+        <item>21:00</item>
+    </string-array>
+    <string-array name="GAU___KNOWLEDGE_VILLAGE__Knowledge_Village">
+        <item>9:30</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>14:30</item>
+        <item>15:15</item>
+        <item>17:20</item>
+        <item>21:10</item>
+    </string-array>
+
+    <string-array name="UNIVERSITY_COMPLEX___GAU">
+        <item>University Complex</item>
+        <item>GAU</item>
+    </string-array>
+    <string-array name="UNIVERSITY_COMPLEX___GAU__University_Complex">
+        <item>8:45</item>
+        <item>9:45</item>
+        <item>10:45</item>
+        <item>11:45</item>
+        <item>12:45</item>
+        <item>13:45</item>
+        <item>14:45</item>
+        <item>15:45</item>
+        <item>16:45</item>
+        <item>17:45</item>
+        <item>18:45</item>
+        <item>19:45</item>
+        <item>20:45</item>
+        <item>21:45</item>
+    </string-array>
+    <string-array name="UNIVERSITY_COMPLEX___GAU__GAU">
+        <item>8:55</item>
+        <item>9:55</item>
+        <item>10:55</item>
+        <item>11:55</item>
+        <item>12:55</item>
+        <item>13:55</item>
+        <item>14:55</item>
+        <item>15:55</item>
+        <item>16:55</item>
+        <item>17:55</item>
+        <item>18:55</item>
+        <item>19:55</item>
+        <item>20:55</item>
+        <item>21:55</item>
+    </string-array>
+
+    <string-array name="GAU___UNIVERSITY_COMPLEX">
+        <item>GAU</item>
+        <item>University Complex</item>
+    </string-array>
+    <string-array name="GAU___UNIVERSITY_COMPLEX__GAU">
+        <item>9:30</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>14:30</item>
+        <item>15:30</item>
+        <item>16:30</item>
+        <item>17:30</item>
+        <item>18:30</item>
+        <item>19:30</item>
+        <item>20:30</item>
+    </string-array>
+    <string-array name="GAU___UNIVERSITY_COMPLEX__University_Complex">
+        <item>9:40</item>
+        <item>10:40</item>
+        <item>11:40</item>
+        <item>12:40</item>
+        <item>14:40</item>
+        <item>15:40</item>
+        <item>16:40</item>
+        <item>17:40</item>
+        <item>18:40</item>
+        <item>19:40</item>
+        <item>20:40</item>
+    </string-array>
+
+    <string-array name="GORDON_BENNETT___GAU">
+        <item>Gordon Bennett</item>
+        <item>GAU</item>
+    </string-array>
+    <string-array name="GORDON_BENNETT___GAU__Gordon_Bennett">
+        <item>8:45</item>
+        <item>9:30</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>13:30</item>
+        <item>14:30</item>
+        <item>15:15</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+    <string-array name="GORDON_BENNETT___GAU__GAU">
+        <item>8:50</item>
+        <item>9:35</item>
+        <item>10:35</item>
+        <item>11:35</item>
+        <item>12:35</item>
+        <item>13:35</item>
+        <item>14:35</item>
+        <item>15:20</item>
+        <item>19:05</item>
+        <item>20:05</item>
+        <item>21:05</item>
+    </string-array>
+
+    <string-array name="GAU___GORDON_BENNETT">
+        <item>GAU</item>
+        <item>Gordon Bennett</item>
+    </string-array>
+    <string-array name="GAU___GORDON_BENNETT__GAU">
+        <item>9:20</item>
+        <item>10:20</item>
+        <item>11:20</item>
+        <item>12:20</item>
+        <item>14:20</item>
+        <item>15:05</item>
+        <item>18:50</item>
+        <item>19:50</item>
+        <item>20:50</item>
+    </string-array>
+    <string-array name="GAU___GORDON_BENNETT__Gordon_Bennett">
+        <item>9:30</item>
+        <item>10:30</item>
+        <item>11:30</item>
+        <item>12:30</item>
+        <item>14:30</item>
+        <item>15:15</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+
+    <string-array name="NICOSIA___GAU">
+        <item>Nicosia</item>
+    </string-array>
+    <string-array name="NICOSIA___GAU__Nicosia">
+        <item>7:20</item>
+        <item>9:15</item>
+        <item>11:00</item>
+    </string-array>
+
+    <string-array name="GAU___NICOSIA">
+        <item>GAU</item>
+    </string-array>
+    <string-array name="GAU___NICOSIA__GAU">
+        <item>10:30</item>
+        <item>14:15</item>
+        <item>18:00</item>
+    </string-array>
+
+    <string-array name="SATURDAY">
+        <item>Complex - GAU</item>
+        <item>GAU - Complex</item>
+        <item>Knowledge - GAU</item>
+        <item>GAU - Knowledge</item>
+    </string-array>
+    <string-array name="SATURDAY__Complex___GAU">
+        <item>8:00</item>
+        <item>9:50</item>
+        <item>11:50</item>
+        <item>13:50</item>
+        <item>17:50</item>
+    </string-array>`
+    <string-array name="SATURDAY__GAU___Complex">
+        <item>9:40</item>
+        <item>11:40</item>
+        <item>13:40</item>
+        <item>17:40</item>
+    </string-array>`
+    <string-array name="SATURDAY__Knowledge___GAU">
+    <item>8:10</item>
+    <item>9:30</item>
+    </string-array>`
+    <string-array name="SATURDAY__GAU___Knowledge">
+        <item>9:20</item>
+        <item>15:00</item>
+    </string-array>`
+
+    <string-array name="SUNDAY_AND_PUBLIC_HOLIDAYS">
+        <item>Complex - GAU</item>
+        <item>GAU - Complex</item>
+        <item>Knowledge - GAU</item>
+        <item>GAU - Knowledge</item>
+    </string-array>
+    <string-array name="SUNDAY_AND_PUBLIC_HOLIDAYS__Complex___GAU">
+        <item>11:00</item>
+        <item>14:00</item>
+        <item>17:00</item>
+    </string-array>
+    <string-array name="SUNDAY_AND_PUBLIC_HOLIDAYS__GAU___Complex">
+        <item>11:20</item>
+        <item>14:20</item>
+        <item>17:20</item>
+    </string-array>
+    <string-array name="SUNDAY_AND_PUBLIC_HOLIDAYS__Knowledge___GAU">
+        <item>11:05</item>
+        <item>14:05</item>
+        <item>17:05</item>
+    </string-array>
+    <string-array name="SUNDAY_AND_PUBLIC_HOLIDAYS__GAU___Knowledge">
+        <item>11:20</item>
+        <item>14:20</item>
+        <item>17:20</item>
+    </string-array>
+
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="listview11">listview11</string>
+   <string-array name="Faculties">
+       <item>	PA102,	Thursday,	9:00,	EP,	EL1,	</item>
+       <item>	PA301	Thursday	9:00	LP	EL2	</item>
+       <item>	ART301	Thursday	9:00	LP	EL2	</item>
+       <item>	ART401	Thursday	9:00	LP	EL2	</item>
+       <item>	PA302	Thursday	9:00	LP	EL2	</item>
+       <item>	GRA302	Thursday	9:00	LP	EL2	</item>
+       <item>	PA103	Wednesday	10:00	KU	EL1	</item>
+       <item>	GRA267	Monday	14:00	KU	EL1	</item>
+       <item>	Pa111	Tuesday	10:00	KU	EL1	</item>
+       <item>	PA131	Monday	9:00	EP	ADA101	</item>
+       <item>	PA211	Wednesday	14:00	KU	EL1	</item>
+       <item>	PA231	Tuesday	14:00	KU	EL1	</item>
+       <item>	PA311	Tuesday	9:00	LP	EL2	</item>
+       <item>	PA411	Tuesday	14:00	DR	ADA104	</item>
+       <item>	MFA515	Wednesday	17:00	MA	ADA218	</item>
+       <item>	ARC604	Wednesday	17:00	MA	TP	</item>
+       <item>	MFA501	Thursday	14:00	MA	ADA103	</item>
+       <item>	MFA502	Thursday	14:00	MA	ADA103	</item>
+       <item>	GRA121	Tuesday	14:00	LP	EL2	</item>
+       <item>	GRA202	Wednesday	9:00	DR	ADA104	</item>
+       <item>	GRA301	Wednesday	9:00	DR	ADA104	</item>
+       <item>	GRA330	Wednesday	9:00	DR	ADA104	</item>
+       <item>	GRA333	Friday	9:00	MV	ADA104	</item>
+       <item>	GRA401	Friday	11:00	MV	ADA104	</item>
+       <item>	GRA401	Monday	9:00	DR	EL2	</item>
+       <item>	GRA402	Monday	9:00	DR	EL2	</item>
+       <item>	GRA221	Thursday	9:00	DR	ADA104	</item>
+       <item>	GRA223	Thursday	13:00	DR	ADA104	</item>
+       <item>	GRA412	Thursday	9:00	KU	ADA106	</item>
+       <item>	ARC141.1	Monday	14:00	EP	AMPHI	</item>
+       <item>	ARC141.2	Tuesday	14:00	EP	AMPHI	</item>
+       <item>	ARC141.3	Wednesday	14:00	EP	AMPHI	</item>
+       <item>	ARC141.1	Monday	14:00	EP	AMPHI	</item>
+       <item>	ARC141.2	Tuesday	14:00	EP	AMPHI	</item>
+       <item>	ARC141.3	Wednesday	14:00	EP	AMPHI	</item>
+       <item>	INT102	Monday	9:00	CC	ADA219	</item>
+       <item>	INT201	Thursday	9:00	CC	ADA219	</item>
+       <item>	INT202	Thursday	9:00	CC	ADA219	</item>
+       <item>	INT301	Thursday	9:00	KB	ADA218	</item>
+       <item>	INT302	Thursday	9:00	KB	ADA218	</item>
+       <item>	INT221	Friday	14:00	CC	ADA219	</item>
+       <item>	INT241	Wednesday	9:00	KB	ADA219	</item>
+       <item>	INT401	Tuesday	9:00	KB	ADA219	</item>
+       <item>	IDES461	Tuesday	9:00	KB	ADA219	</item>
+       <item>	INT402	Tuesday	9:00	KB	ADA219	</item>
+       <item>	IDES462	Tuesday	9:00	KB	ADA219	</item>
+       <item>	INT361	Wednesday	9:00	AM	ADA303	</item>
+       <item>	MIM101.1	Sali	9:00	SE	BL	</item>
+       <item>	MIM101.2	Persembe	9:00	SE	BL	</item>
+       <item>	MIM101.3	Carsamba	9:00	KG	BL	</item>
+       <item>	MIM102	Sali	9:00	KG	ADA103	</item>
+       <item>	MIM201.1	Sali	9:00	KG	ADA103	</item>
+       <item>	MIM201.2	Sali	9:00	CY	ADA102	</item>
+       <item>	MIM202	Sali	9:00	CY	ADA102	</item>
+       <item>	MIM111.1	Cuma	12:00	BK	103	</item>
+       <item>	MIM111.2	Cuma	15:00	BK	103	</item>
+       <item>	MIM111.3	Cuma	9:00	BK	ADA103	</item>
+       <item>	MIM121.1	Cuma	9:00	MA	BL	</item>
+       <item>	MIM121.2	Cuma	12:00	MA	BL	</item>
+       <item>	MIM131	Pazartesi	15:00	STAFF	ADA101	</item>
+       <item>	MIM141.1	Pazartesi	9:00	STAFF	Amphitheatre	</item>
+       <item>	MIM141.2	Sali	9:00	STAFF	ADA101	</item>
+       <item>	MIM211.1	Sali	16:00	BJ	ADA104	</item>
+       <item>	MIM211.2	Persembe	16:00	BK	ADA104	</item>
+       <item>	MIM221.1	Pazartesi	15:00	BY	BL	</item>
+       <item>	MIM221.2	Persembe	16:00	BY	BL	</item>
+       <item>	MIM241	Pazartesi	12:00	STAFF	ADA101	</item>
+       <item>	MIM301	Carsamba	9:00	CY	ADA103	</item>
+       <item>	MIM351	Cuma	12:00	CY	ADA103	</item>
+       <item>	MIM361	Persembe	9:00	CY	ADA101	</item>
+       <item>	MIM381	Persembe	12:00	KG	ADA101	</item>
+       <item>	ART106.1	Carsamba	9:00	SE	EL2	</item>
+       <item>	ART106.2	Carsamba	12:00	SE	EL2	</item>
+       <item>	MIM319	Persembe	15:00	KG	ADA101	</item>
+       <item>	ARC101.1	Monday	9:00	AB	ADA301	</item>
+       <item>	ARC101.2	Tuesday	9:00	AB	ADA301	</item>
+       <item>	ARC101.3	Wednesday	9:00	AB	ADA301	</item>
+       <item>	ARC101.4	Monday	9:00	SA	ADA301	</item>
+       <item>	ARC101.5	Tuesday	9:00	SA	ADA301	</item>
+       <item>	ARC101.6	Wednesday	9:00	SA	ADA301	</item>
+       <item>	ARC101.1	Friday	11:00	AB	ADA301	</item>
+       <item>	ARC101.2	Friday	11:00	AB	ADA301	</item>
+       <item>	ARC101.3	Friday	11:00	AB	ADA301	</item>
+       <item>	ARC101.4	Friday	11:00	SA	ADA301	</item>
+       <item>	ARC101.5	Friday	11:00	SA	ADA301	</item>
+       <item>	ARC101.6	Friday	11:00	SA	ADA301	</item>
+       <item>	ARC102.1	Tuesday	9:00		ADA302	</item>
+       <item>	ARC102.2	Wednesday	9:00		ADA302	</item>
+       <item>	ARC102.1	Friday	11:00		ADA302	</item>
+       <item>	ARC102.2	Friday	11:00		ADA302	</item>
+       <item>	ARC111.1	Thursday	9:00	STAFF	ADA301	</item>
+       <item>	ARC111.2	Thursday	13:00	STAFF	ADA301	</item>
+       <item>	ARC111.3	Thursday	16:00	STAFF	ADA301	</item>
+       <item>	ARC111.4	Friday	14:00	STAFF	ADA301	</item>
+       <item>	ARC121.1	Thursday	9:00	IO	ADA302	</item>
+       <item>	ARC121.2	Thursday	13:00	IO	ADA302	</item>
+       <item>	ARC121.3	Thursday	16:00	IO	ADA302	</item>
+       <item>	ARC121.4	Friday	14:00	IO	ADA302	</item>
+       <item>	ARC131.1	Saturday	9:00	IO	ADA301	</item>
+       <item>	ARC131.2	Saturday	13:00	IO	ADA301	</item>
+       <item>	ARC201.1	Tuesday	9:00	VD	ADA304	</item>
+       <item>	ARC201.2	Wednesday	9:00	VD	ADA304	</item>
+       <item>	ARC201.3	Tuesday	9:00	DR.H	ADA304	</item>
+       <item>	ARC201.4	Tuesday	9:00	ED	ADA304	</item>
+       <item>	ARC202.1	Wednesday	9:00	DR.B	ADA305	</item>
+       <item>	ARC202.2	Thursday	9:00	DR.B	ADA305	</item>
+       <item>	ARC202.3	Thursday	9:00		ADA305	</item>
+       <item>	ARC211.1	Monday	9:00	EK	ADA104	</item>
+       <item>	ARC211.2	Monday	12:00	EK	ADA104	</item>
+       <item>	ARC211.3	Monday	15:00	EK	ADA104	</item>
+       <item>	ARC241.1	Monday	9:00	Dr.H	ADA305	</item>
+       <item>	ARC241.2	Monday	12:00	Dr.H	ADA305	</item>
+       <item>	ARC241.3	Monday	15:00	DR.H	ADA305	</item>
+       <item>	ARC221.1	Friday	14:00	ED	ADA304	</item>
+       <item>	ARC221.2	Thursday	14:00	ED	ADA304	</item>
+       <item>	ARC221.3	Thursday	9:00	ED	ADA304	</item>
+       <item>	ARCH465	Thursday	14:00	ED	Amphy Theatre	</item>
+       <item>	ARC301.1	Monday	9:00	SC	ADA303	</item>
+       <item>	ARC301.2	Tuesday	9:00	SZ	ADA303	</item>
+       <item>	ARC301.3	Monday	9:00	D	ADA303	</item>
+       <item>	ARC301.4	Tuesday	9:00	D	ADA303	</item>
+       <item>	ARC302.1	Thursday	9:00	AM	ADA303	</item>
+       <item>	ARC302.2	Friday	9:00	AM	ADA303	</item>
+       <item>	ARC351.1	Wednesday	9:00	SC	ADA218	</item>
+       <item>	ARC351.2	Wednesday	14:00	SC	ADA218	</item>
+       <item>	ARC352	Thursday	14:00	SC	Amphy Theatre	</item>
+       <item>	ARC361.1	Wednesday	9:00	AM	ADA303	</item>
+       <item>	ARC361.2	Wednesday	14:00	AM	ADA303	</item>
+       <item>	ARC381	Wednesday	12:00	HS	Amphy Theatre	</item>
+       <item>	ARCH415	Thursday	9:00	D	Amphy Theatre	</item>
+       <item>	ARC373	Wednesday	9:00	D	Amphy Theatre	</item>
+       <item>	PA103	Wednesday	10:00	KU	EL1	</item>
+       <item>	GRA267	Monday	14:00	KU	EL1	</item>
+       <item>	PA131	Monday	9:00	PB	ADA101	</item>
+       <item>	PA211	Wednesday	14:00	KU	EL1	</item>
+       <item>	PA231	Tuesday	14:00	KU	EL1	</item>
+       <item>	PA311	Tuesday	9:00	LP	EL2	</item>
+       <item>	GRA121	Monday	9:00	LP	EL1	</item>
+       <item>	GRA221	Thursday	9:00	DR	ML101	</item>
+       <item>	GRA223	Thursday	14:00	DR	ML101	</item>
+       <item>	ARCH465	Wednesday	17:00	ED	Amphy Theatre	</item>
+       <item>	ARCH416	Thursday	9:00	DM	Amphy Theatre	</item>
+       <item>	ARC373	Wednesday	9:00	DM	Amphy Theatre	</item>
+       <item>	ARC352	Thursday	14:00	SC	ADA304	</item>
+       <item>	THM113	Monday	15:00		Millenium Building	</item>
+       <item>	ELIT201	Monday	9:00		A1.7	</item>
+       <item>	THY117	Tuesday	9:00	LS		</item>
+       <item>	TFL101.1	Tuesday	17:00		Victory	</item>
+       <item>	TFL101.2	Wednesday	17:00		Victory	</item>
+       <item>	TFL101.3	Monday	18:00		Victory	</item>
+       <item>	TFL101.4	Thursday	18:00		Victory	</item>
+       <item>	TFL102	Wednesday	18:00		Victory	</item>
+
+   </string-array>
+
+</resources>
+
